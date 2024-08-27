@@ -10,4 +10,5 @@ pip install opencv-python
 pip install paddlepaddle-gpu
 pip install paddleocr==2.7.3
 
+
 ## after this first run the signature_extractor.py, then app.py and then use the command streamlit run fe.py to launch the application.
