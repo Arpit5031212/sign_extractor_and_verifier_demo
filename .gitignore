@@ -1,0 +1,3 @@
+.conda
+detectron2
+*.pth
