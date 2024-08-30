@@ -84,6 +84,9 @@ class Detector:
         return output
         
     def onImage(self, image):
+        if(image is None): 
+            print("NONE")
+            return None
         predictions = self.predictor(image)
         # viz = Visualizer(image[:,:,::-1], metadata = metadata, instance_mode = ColorMode.IMAGE_BW)
         # output = viz.draw_instance_predictions(predictions["instances"].to("cpu"))

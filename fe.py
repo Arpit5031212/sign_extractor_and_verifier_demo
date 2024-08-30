@@ -4,7 +4,13 @@ from PIL import Image, ImageDraw, ImageFont
 import io
 import pypdfium2 as pdfium
 import numpy as np
+import base64
+import json
 
+def decode_base64_image(base64_string):
+    image_data = base64.b64decode(base64_string)
+    image = Image.open(io.BytesIO(image_data))
+    return image
 
 def convertPdfToImage(pdf_bytes):
     pdf = pdfium.PdfDocument(pdf_bytes)
@@ -12,7 +18,7 @@ def convertPdfToImage(pdf_bytes):
     for page_number in range(n_pages):
         page = pdf.get_page(page_number)
         pil_image = page.render(
-            scale=1,
+            scale=2,
             rotation=0,
             crop=(0, 0, 0, 0),
             grayscale=True
@@ -51,7 +57,7 @@ if uploaded_file is not None:
 
     # Convert the image to bytes
     img_bytes = io.BytesIO()
-    image.save(img_bytes, format='JPEG')
+    image.save(img_bytes, format='PNG')
     img_bytes = img_bytes.getvalue()
 
     # Send the image to the Flask API
@@ -61,23 +67,28 @@ if uploaded_file is not None:
         results = response.json()
         boxes = results["boxes"]
         classes = results["classes"]
-        # bbox_coords = results["bbox"]
-        # cropped_image = None
+        bbox_coords = results["cropped_box"]
+        bbox_coords = json.loads(bbox_coords)
+        bbox_coords = np.array(bbox_coords)
+        cropped_image = None
+        image = np.array(image)
 
-        # if bbox_coords is not None:
-        #     xmin = int(min(p[0] for p in bbox_coords))
-        #     xmax = int(max(p[0] for p in bbox_coords))
-        #     ymin = int(min(p[1] for p in bbox_coords))
-        #     ymax = int(max(p[1] for p in bbox_coords))
-        #     # xmax += 70
-        #     # ymax += 40
-        #     cropped_image = image[ymin:ymax, xmin:xmax]
-        # Draw the boxes on the image
+        if bbox_coords is not None:
+            xmin = int(min(p[0] for p in bbox_coords))
+            xmax = image.shape[1]
+            ymin = 0
+            ymax = int(max(p[1] for p in bbox_coords))
+            cropped_image = image[ymin:ymax, xmin:xmax]
         
-        image_with_boxes = draw_boxes(image, boxes, classes)
+        if(cropped_image is not None): 
+            cropped_image = Image.fromarray(cropped_image)
+            
+        # Draw the boxes on the image
+        image_with_boxes = draw_boxes(cropped_image, boxes, classes)
 
         # Display the image with bounding boxes
         # st.image(image, caption="cropped", use_column_width=True)
-        st.image(image_with_boxes, caption="Processed Image with Detections.", use_column_width=True)
+        st.image(cropped_image, caption="crropped image", use_column_width=True)
+        st.image(image_with_boxes, caption="image with detection", use_column_width=True)
     else:
         st.write("Error in processing the image.")
