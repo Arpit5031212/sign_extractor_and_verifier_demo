@@ -1,0 +1,1614 @@
+PDF File,Status,ROI,Error Message
+021381.pdf,Success,"[363, 540, 0, 185]",Processed successfully
+043236.pdf,Success,"[401, 612, 0, 191]",Processed successfully
+049541.pdf,Failed,NA,ROI not found or OCR error
+049672.pdf,Failed,NA,ROI not found or OCR error
+050649.pdf,Success,"[372, 545, 0, 188]",Processed successfully
+051069.pdf,Success,"[375, 544, 0, 185]",Processed successfully
+052536.pdf,Failed,NA,ROI not found or OCR error
+056108.pdf,Success,"[369, 545, 0, 190]",Processed successfully
+061218.pdf,Success,"[377, 543, 0, 187]",Processed successfully
+068058.pdf,Failed,NA,ROI not found or OCR error
+072316.pdf,Failed,NA,ROI not found or OCR error
+072617.pdf,Success,"[366, 542, 0, 188]",Processed successfully
+076213.pdf,Success,"[362, 540, 0, 187]",Processed successfully
+078532.pdf,Success,"[433, 612, 0, 191]",Processed successfully
+079423.pdf,Success,"[366, 542, 0, 187]",Processed successfully
+080490.pdf,Failed,NA,ROI not found or OCR error
+081886.pdf,Success,"[370, 548, 0, 187]",Processed successfully
+084038.pdf,Success,"[374, 542, 0, 188]",Processed successfully
+085042.pdf,Success,"[372, 546, 0, 188]",Processed successfully
+085254.pdf,Failed,NA,ROI not found or OCR error
+086153.pdf,Failed,NA,ROI not found or OCR error
+086551.pdf,Success,"[366, 542, 0, 184]",Processed successfully
+087947.pdf,Success,"[367, 543, 0, 186]",Processed successfully
+089004.pdf,Failed,NA,ROI not found or OCR error
+089012.pdf,Success,"[376, 557, 0, 188]",Processed successfully
+089185.pdf,Failed,NA,ROI not found or OCR error
+089193.pdf,Success,"[362, 610, 0, 189]",Processed successfully
+089575.pdf,Success,"[362, 537, 0, 186]",Processed successfully
+089787.pdf,Success,"[381, 542, 0, 188]",Processed successfully
+089826.pdf,Failed,NA,ROI not found or OCR error
+090047.pdf,Failed,NA,ROI not found or OCR error
+090398.pdf,Success,"[382, 543, 0, 190]",Processed successfully
+090550.pdf,Success,"[382, 543, 0, 187]",Processed successfully
+091158.pdf,Failed,NA,ROI not found or OCR error
+091425.pdf,Success,"[365, 543, 0, 185]",Processed successfully
+091726.pdf,Failed,NA,ROI not found or OCR error
+091954.pdf,Failed,NA,ROI not found or OCR error
+091962.pdf,Success,"[367, 545, 0, 187]",Processed successfully
+092235.pdf,Success,"[399, 610, 0, 206]",Processed successfully
+092293.pdf,Failed,NA,ROI not found or OCR error
+092471.pdf,Failed,NA,ROI not found or OCR error
+093451.pdf,Success,"[364, 542, 0, 189]",Processed successfully
+095110.pdf,Failed,NA,ROI not found or OCR error
+095275.pdf,Failed,NA,ROI not found or OCR error
+097730.pdf,Failed,NA,ROI not found or OCR error
+097942.pdf,Failed,NA,ROI not found or OCR error
+097984.pdf,Success,"[381, 543, 0, 183]",Processed successfully
+098304.pdf,Failed,NA,ROI not found or OCR error
+106759.pdf,Success,"[365, 542, 0, 188]",Processed successfully
+107763.pdf,Success,"[374, 543, 0, 187]",Processed successfully
+108028.pdf,Failed,NA,ROI not found or OCR error
+109359.pdf,Success,"[372, 551, 0, 189]",Processed successfully
+109781.pdf,Success,"[357, 541, 0, 182]",Processed successfully
+110473.pdf,Failed,NA,ROI not found or OCR error
+110538.pdf,Success,"[367, 543, 0, 188]",Processed successfully
+110619.pdf,Failed,NA,ROI not found or OCR error
+112564.pdf,Success,"[377, 542, 0, 187]",Processed successfully
+113845.pdf,Success,"[374, 550, 0, 188]",Processed successfully
+113968.pdf,Failed,NA,ROI not found or OCR error
+115821.pdf,Success,"[372, 545, 0, 187]",Processed successfully
+118162.pdf,Success,"[406, 610, 0, 208]",Processed successfully
+119011.pdf,Failed,NA,ROI not found or OCR error
+119273.pdf,Failed,NA,ROI not found or OCR error
+121937.pdf,Failed,NA,ROI not found or OCR error
+122551.pdf,Success,"[368, 543, 0, 187]",Processed successfully
+122616.pdf,Success,"[444, 543, 0, 184]",Processed successfully
+124325.pdf,Success,"[445, 612, 0, 191]",Processed successfully
+124650.pdf,Failed,NA,ROI not found or OCR error
+125266.pdf,Failed,NA,ROI not found or OCR error
+126343.pdf,Failed,NA,ROI not found or OCR error
+127674.pdf,Success,"[372, 545, 0, 185]",Processed successfully
+128248.pdf,Success,"[367, 544, 0, 186]",Processed successfully
+130520.pdf,Success,"[432, 612, 0, 190]",Processed successfully
+130936.pdf,Failed,NA,ROI not found or OCR error
+131063.pdf,Failed,NA,ROI not found or OCR error
+131128.pdf,Success,"[390, 543, 0, 187]",Processed successfully
+131623.pdf,Success,"[366, 543, 0, 188]",Processed successfully
+132263.pdf,Failed,NA,ROI not found or OCR error
+132679.pdf,Success,"[404, 543, 0, 190]",Processed successfully
+134207.pdf,Success,"[369, 542, 0, 188]",Processed successfully
+135203.pdf,Success,"[367, 541, 0, 190]",Processed successfully
+138112.pdf,Success,"[406, 547, 0, 167]",Processed successfully
+138942.pdf,Success,"[368, 542, 0, 187]",Processed successfully
+139003.pdf,Failed,NA,ROI not found or OCR error
+139639.pdf,Success,"[401, 612, 0, 190]",Processed successfully
+140208.pdf,Success,"[367, 543, 0, 185]",Processed successfully
+141343.pdf,Failed,NA,ROI not found or OCR error
+141636.pdf,Failed,NA,ROI not found or OCR error
+142357.pdf,Failed,NA,ROI not found or OCR error
+143549.pdf,Success,"[438, 612, 0, 212]",Processed successfully
+143816.pdf,Success,"[370, 543, 0, 186]",Processed successfully
+144367.pdf,Failed,NA,ROI not found or OCR error
+144896.pdf,Failed,NA,ROI not found or OCR error
+145135.pdf,Success,"[374, 542, 0, 184]",Processed successfully
+145347.pdf,Success,"[372, 542, 0, 186]",Processed successfully
+145915.pdf,Failed,NA,ROI not found or OCR error
+146254.pdf,Success,"[438, 612, 0, 190]",Processed successfully
+147179.pdf,Failed,NA,ROI not found or OCR error
+147836.pdf,Success,"[373, 543, 0, 190]",Processed successfully
+148206.pdf,Success,"[380, 540, 0, 187]",Processed successfully
+148256.pdf,Success,"[369, 543, 0, 184]",Processed successfully
+148311.pdf,Success,"[402, 612, 0, 190]",Processed successfully
+148387.pdf,Failed,NA,ROI not found or OCR error
+148426.pdf,Success,"[368, 543, 0, 188]",Processed successfully
+149155.pdf,Success,"[420, 610, 0, 205]",Processed successfully
+149634.pdf,Success,"[384, 544, 0, 189]",Processed successfully
+149723.pdf,Failed,NA,ROI not found or OCR error
+149773.pdf,Failed,NA,ROI not found or OCR error
+150821.pdf,Failed,NA,ROI not found or OCR error
+151233.pdf,Failed,NA,ROI not found or OCR error
+151615.pdf,Failed,NA,ROI not found or OCR error
+151649.pdf,Success,"[373, 550, 0, 188]",Processed successfully
+151924.pdf,Success,"[394, 542, 0, 186]",Processed successfully
+152475.pdf,Success,"[376, 544, 0, 187]",Processed successfully
+152572.pdf,Success,"[427, 610, 0, 205]",Processed successfully
+152792.pdf,Failed,NA,ROI not found or OCR error
+153277.pdf,Failed,NA,ROI not found or OCR error
+153340.pdf,Failed,NA,ROI not found or OCR error
+153798.pdf,Success,"[378, 542, 0, 184]",Processed successfully
+153829.pdf,Success,"[372, 543, 0, 191]",Processed successfully
+154079.pdf,Success,"[414, 612, 0, 190]",Processed successfully
+154671.pdf,Success,"[386, 543, 0, 188]",Processed successfully
+155855.pdf,Success,"[398, 543, 0, 185]",Processed successfully
+156063.pdf,Failed,NA,ROI not found or OCR error
+156356.pdf,Failed,NA,ROI not found or OCR error
+156885.pdf,Success,"[432, 545, 0, 188]",Processed successfully
+157572.pdf,Success,"[366, 542, 0, 189]",Processed successfully
+157946.pdf,Success,"[365, 546, 0, 185]",Processed successfully
+158455.pdf,Success,"[382, 543, 0, 187]",Processed successfully
+158536.pdf,Success,"[375, 543, 0, 187]",Processed successfully
+158879.pdf,Success,"[371, 543, 0, 190]",Processed successfully
+158934.pdf,Failed,NA,ROI not found or OCR error
+159215.pdf,Success,"[362, 540, 0, 186]",Processed successfully
+159257.pdf,Failed,NA,ROI not found or OCR error
+159312.pdf,Success,"[377, 542, 0, 188]",Processed successfully
+159532.pdf,Failed,NA,ROI not found or OCR error
+159655.pdf,Success,"[368, 544, 0, 187]",Processed successfully
+159809.pdf,Failed,NA,ROI not found or OCR error
+160282.pdf,Failed,NA,ROI not found or OCR error
+160703.pdf,Failed,NA,ROI not found or OCR error
+160711.pdf,Failed,NA,ROI not found or OCR error
+160787.pdf,Success,"[406, 612, 0, 191]",Processed successfully
+160915.pdf,Failed,NA,ROI not found or OCR error
+161547.pdf,Success,"[368, 545, 0, 187]",Processed successfully
+161660.pdf,Failed,NA,ROI not found or OCR error
+162111.pdf,Success,"[369, 550, 0, 188]",Processed successfully
+162250.pdf,Failed,NA,ROI not found or OCR error
+162365.pdf,Failed,NA,ROI not found or OCR error
+162624.pdf,Failed,NA,ROI not found or OCR error
+162640.pdf,Failed,NA,ROI not found or OCR error
+163206.pdf,Success,"[371, 545, 0, 189]",Processed successfully
+163379.pdf,Failed,NA,ROI not found or OCR error
+163434.pdf,Success,"[406, 542, 0, 186]",Processed successfully
+164773.pdf,Success,"[365, 542, 0, 187]",Processed successfully
+165533.pdf,Success,"[387, 543, 0, 187]",Processed successfully
+165949.pdf,Failed,NA,ROI not found or OCR error
+166018.pdf,Failed,NA,ROI not found or OCR error
+166270.pdf,Failed,NA,ROI not found or OCR error
+166636.pdf,Success,"[409, 542, 0, 191]",Processed successfully
+166717.pdf,Failed,NA,ROI not found or OCR error
+167331.pdf,Failed,NA,ROI not found or OCR error
+167446.pdf,Success,"[414, 610, 0, 221]",Processed successfully
+168028.pdf,Success,"[401, 612, 0, 190]",Processed successfully
+168361.pdf,Success,"[375, 549, 0, 187]",Processed successfully
+170083.pdf,Success,"[370, 541, 0, 185]",Processed successfully
+170148.pdf,Failed,NA,ROI not found or OCR error
+170635.pdf,Failed,NA,ROI not found or OCR error
+171704.pdf,Success,"[376, 546, 0, 188]",Processed successfully
+171746.pdf,Success,"[366, 545, 0, 192]",Processed successfully
+172792.pdf,Failed,NA,ROI not found or OCR error
+174485.pdf,Failed,NA,ROI not found or OCR error
+175075.pdf,Success,"[380, 542, 0, 187]",Processed successfully
+176005.pdf,Failed,NA,ROI not found or OCR error
+176102.pdf,Failed,NA,ROI not found or OCR error
+176437.pdf,Success,"[456, 542, 0, 186]",Processed successfully
+176568.pdf,Success,"[406, 543, 0, 189]",Processed successfully
+176649.pdf,Failed,NA,ROI not found or OCR error
+177603.pdf,Failed,NA,ROI not found or OCR error
+177899.pdf,Success,"[378, 543, 0, 188]",Processed successfully
+178780.pdf,Success,"[377, 546, 0, 189]",Processed successfully
+179011.pdf,Failed,NA,ROI not found or OCR error
+179045.pdf,Failed,NA,ROI not found or OCR error
+179427.pdf,Success,"[366, 544, 0, 189]",Processed successfully
+179663.pdf,Success,"[365, 544, 0, 185]",Processed successfully
+180119.pdf,Failed,NA,ROI not found or OCR error
+180143.pdf,Failed,NA,ROI not found or OCR error
+180850.pdf,Success,"[367, 544, 0, 189]",Processed successfully
+180973.pdf,Failed,NA,ROI not found or OCR error
+181571.pdf,Failed,NA,ROI not found or OCR error
+181644.pdf,Failed,NA,ROI not found or OCR error
+182349.pdf,Success,"[392, 545, 0, 189]",Processed successfully
+182470.pdf,Failed,NA,ROI not found or OCR error
+183175.pdf,Success,"[369, 541, 0, 187]",Processed successfully
+184210.pdf,Success,"[370, 552, 0, 188]",Processed successfully
+184341.pdf,Failed,NA,ROI not found or OCR error
+186602.pdf,Success,"[511, 547, 0, 190]",Processed successfully
+188387.pdf,Success,"[365, 543, 0, 188]",Processed successfully
+188890.pdf,Success,"[364, 549, 0, 187]",Processed successfully
+189105.pdf,Success,"[397, 543, 0, 189]",Processed successfully
+189333.pdf,Failed,NA,ROI not found or OCR error
+190504.pdf,Failed,NA,ROI not found or OCR error
+191233.pdf,Success,"[379, 545, 0, 190]",Processed successfully
+191908.pdf,Failed,NA,ROI not found or OCR error
+192297.pdf,Success,"[369, 549, 0, 192]",Processed successfully
+193201.pdf,Success,"[365, 543, 0, 185]",Processed successfully
+193471.pdf,Failed,NA,ROI not found or OCR error
+193633.pdf,Success,"[377, 542, 0, 188]",Processed successfully
+193659.pdf,Success,"[382, 543, 0, 190]",Processed successfully
+194299.pdf,Success,"[380, 543, 0, 185]",Processed successfully
+195017.pdf,Failed,NA,ROI not found or OCR error
+195619.pdf,Success,"[373, 543, 0, 189]",Processed successfully
+195889.pdf,Failed,NA,ROI not found or OCR error
+195936.pdf,Success,"[365, 543, 0, 187]",Processed successfully
+196063.pdf,Failed,NA,ROI not found or OCR error
+196225.pdf,Success,"[368, 540, 0, 188]",Processed successfully
+196372.pdf,Success,"[383, 544, 0, 189]",Processed successfully
+196437.pdf,Success,"[380, 545, 0, 185]",Processed successfully
+196893.pdf,Success,"[377, 543, 0, 188]",Processed successfully
+197124.pdf,Success,"[376, 558, 0, 188]",Processed successfully
+197459.pdf,Failed,NA,ROI not found or OCR error
+197483.pdf,Success,"[371, 543, 0, 184]",Processed successfully
+198065.pdf,Success,"[368, 544, 0, 189]",Processed successfully
+198502.pdf,Success,"[381, 546, 0, 190]",Processed successfully
+198764.pdf,Success,"[367, 543, 0, 189]",Processed successfully
+198798.pdf,Success,"[418, 543, 0, 191]",Processed successfully
+199118.pdf,Success,"[454, 612, 0, 191]",Processed successfully
+199540.pdf,Success,"[368, 544, 0, 189]",Processed successfully
+199948.pdf,Success,"[368, 542, 0, 189]",Processed successfully
+200498.pdf,Failed,NA,ROI not found or OCR error
+201012.pdf,Success,"[380, 545, 0, 187]",Processed successfully
+201127.pdf,Success,"[368, 543, 0, 189]",Processed successfully
+201478.pdf,Failed,NA,ROI not found or OCR error
+201711.pdf,Success,"[410, 612, 0, 193]",Processed successfully
+201965.pdf,Success,"[374, 554, 0, 189]",Processed successfully
+202181.pdf,Failed,NA,ROI not found or OCR error
+202220.pdf,Failed,NA,ROI not found or OCR error
+203064.pdf,Success,"[367, 543, 0, 187]",Processed successfully
+203666.pdf,Success,"[380, 540, 0, 187]",Processed successfully
+203909.pdf,Success,"[379, 544, 0, 186]",Processed successfully
+204052.pdf,Failed,NA,ROI not found or OCR error
+204167.pdf,Success,"[368, 542, 0, 187]",Processed successfully
+204905.pdf,Failed,NA,ROI not found or OCR error
+205537.pdf,Failed,NA,ROI not found or OCR error
+205553.pdf,Failed,NA,ROI not found or OCR error
+206004.pdf,Success,"[450, 612, 0, 210]",Processed successfully
+206737.pdf,Success,"[380, 547, 0, 186]",Processed successfully
+206753.pdf,Success,"[365, 539, 0, 188]",Processed successfully
+206761.pdf,Failed,NA,ROI not found or OCR error
+206931.pdf,Success,"[379, 543, 0, 188]",Processed successfully
+206999.pdf,Success,"[372, 610, 0, 187]",Processed successfully
+207254.pdf,Failed,NA,ROI not found or OCR error
+207385.pdf,Failed,NA,ROI not found or OCR error
+207848.pdf,Success,"[432, 612, 0, 210]",Processed successfully
+207911.pdf,Success,"[369, 542, 0, 188]",Processed successfully
+207979.pdf,Success,"[380, 551, 0, 190]",Processed successfully
+208365.pdf,Failed,NA,ROI not found or OCR error
+208763.pdf,Failed,NA,ROI not found or OCR error
+208789.pdf,Success,"[417, 544, 0, 188]",Processed successfully
+208917.pdf,Success,"[397, 543, 0, 189]",Processed successfully
+209515.pdf,Failed,NA,ROI not found or OCR error
+210906.pdf,Failed,NA,ROI not found or OCR error
+210980.pdf,Success,"[371, 543, 0, 186]",Processed successfully
+211148.pdf,Failed,NA,ROI not found or OCR error
+211376.pdf,Success,"[385, 612, 0, 184]",Processed successfully
+211643.pdf,Success,"[369, 541, 0, 168]",Processed successfully
+211805.pdf,Failed,NA,ROI not found or OCR error
+213661.pdf,Failed,NA,ROI not found or OCR error
+213849.pdf,Success,"[378, 542, 0, 188]",Processed successfully
+214552.pdf,Success,"[470, 612, 0, 193]",Processed successfully
+214837.pdf,Success,"[370, 542, 0, 192]",Processed successfully
+215061.pdf,Success,"[364, 542, 0, 189]",Processed successfully
+215095.pdf,Success,"[376, 545, 0, 188]",Processed successfully
+215304.pdf,Failed,NA,ROI not found or OCR error
+215736.pdf,Success,"[365, 543, 0, 188]",Processed successfully
+216261.pdf,Success,"[362, 541, 0, 184]",Processed successfully
+217306.pdf,Failed,NA,ROI not found or OCR error
+217500.pdf,Success,"[378, 544, 0, 186]",Processed successfully
+218433.pdf,Success,"[368, 543, 0, 171]",Processed successfully
+218441.pdf,Success,"[382, 542, 0, 171]",Processed successfully
+218506.pdf,Success,"[363, 541, 0, 187]",Processed successfully
+219675.pdf,Success,"[366, 543, 0, 187]",Processed successfully
+220008.pdf,Failed,NA,ROI not found or OCR error
+220286.pdf,Failed,NA,ROI not found or OCR error
+220765.pdf,Success,"[373, 548, 0, 186]",Processed successfully
+220820.pdf,Success,"[365, 542, 0, 187]",Processed successfully
+220935.pdf,Success,"[422, 548, 0, 187]",Processed successfully
+220977.pdf,Success,"[364, 543, 0, 188]",Processed successfully
+221826.pdf,Success,"[377, 545, 0, 187]",Processed successfully
+222270.pdf,Failed,NA,ROI not found or OCR error
+222848.pdf,Success,"[378, 543, 0, 188]",Processed successfully
+223674.pdf,Success,"[370, 544, 0, 187]",Processed successfully
+224400.pdf,Failed,NA,ROI not found or OCR error
+224727.pdf,Success,"[365, 543, 0, 187]",Processed successfully
+224743.pdf,Failed,NA,ROI not found or OCR error
+227089.pdf,Success,"[374, 543, 0, 185]",Processed successfully
+228251.pdf,Success,"[366, 543, 0, 187]",Processed successfully
+235641.pdf,Failed,NA,ROI not found or OCR error
+243078.pdf,Success,"[375, 547, 0, 188]",Processed successfully
+248005.pdf,Failed,NA,ROI not found or OCR error
+249527.pdf,Success,"[402, 612, 0, 191]",Processed successfully
+249536.pdf,Success,"[372, 547, 0, 186]",Processed successfully
+249562.pdf,Success,"[365, 543, 0, 177]",Processed successfully
+249775.pdf,Failed,NA,ROI not found or OCR error
+249802.pdf,Success,"[365, 542, 0, 187]",Processed successfully
+249804.pdf,Failed,NA,ROI not found or OCR error
+249940.pdf,Success,"[366, 544, 0, 186]",Processed successfully
+249997.pdf,Failed,NA,ROI not found or OCR error
+250008.pdf,Failed,NA,ROI not found or OCR error
+250086.pdf,Failed,NA,ROI not found or OCR error
+250219.pdf,Failed,NA,ROI not found or OCR error
+250263.pdf,Failed,NA,ROI not found or OCR error
+250264.pdf,Failed,NA,ROI not found or OCR error
+250299.pdf,Failed,NA,ROI not found or OCR error
+250350.pdf,Success,"[369, 542, 0, 188]",Processed successfully
+250403.pdf,Success,"[414, 542, 0, 188]",Processed successfully
+250433.pdf,Failed,NA,ROI not found or OCR error
+250447.pdf,Failed,NA,ROI not found or OCR error
+250471.pdf,Success,"[378, 543, 0, 187]",Processed successfully
+250489.pdf,Failed,NA,ROI not found or OCR error
+250490.pdf,Failed,NA,ROI not found or OCR error
+250687.pdf,Success,"[377, 543, 0, 189]",Processed successfully
+250751.pdf,Failed,NA,ROI not found or OCR error
+250774.pdf,Success,"[368, 540, 0, 181]",Processed successfully
+250845.pdf,Failed,NA,ROI not found or OCR error
+250850.pdf,Failed,NA,ROI not found or OCR error
+250922.pdf,Failed,NA,ROI not found or OCR error
+250977.pdf,Success,"[385, 612, 0, 186]",Processed successfully
+251041.pdf,Failed,NA,ROI not found or OCR error
+251075.pdf,Success,"[413, 610, 0, 187]",Processed successfully
+251118.pdf,Success,"[368, 543, 0, 192]",Processed successfully
+251179.pdf,Failed,NA,ROI not found or OCR error
+251269.pdf,Failed,NA,ROI not found or OCR error
+251340.pdf,Success,"[371, 545, 0, 187]",Processed successfully
+251351.pdf,Success,"[403, 543, 0, 189]",Processed successfully
+251372.pdf,Success,"[364, 543, 0, 184]",Processed successfully
+251439.pdf,Success,"[364, 543, 0, 182]",Processed successfully
+251529.pdf,Success,"[366, 544, 0, 187]",Processed successfully
+251598.pdf,Failed,NA,ROI not found or OCR error
+251624.pdf,Failed,NA,ROI not found or OCR error
+251732.pdf,Success,"[415, 544, 0, 187]",Processed successfully
+251791.pdf,Failed,NA,ROI not found or OCR error
+251894.pdf,Success,"[401, 543, 0, 186]",Processed successfully
+251898.pdf,Failed,NA,ROI not found or OCR error
+251906.pdf,Failed,NA,ROI not found or OCR error
+251923.pdf,Failed,NA,ROI not found or OCR error
+252001.pdf,Failed,NA,ROI not found or OCR error
+252020.pdf,Success,"[380, 542, 0, 184]",Processed successfully
+252092.pdf,Success,"[366, 544, 0, 186]",Processed successfully
+252110.pdf,Success,"[371, 543, 0, 186]",Processed successfully
+252208.pdf,Success,"[378, 543, 0, 189]",Processed successfully
+252211.pdf,Failed,NA,ROI not found or OCR error
+252249.pdf,Success,"[367, 543, 0, 183]",Processed successfully
+252252.pdf,Failed,NA,ROI not found or OCR error
+252311.pdf,Failed,NA,ROI not found or OCR error
+252337.pdf,Failed,NA,ROI not found or OCR error
+252341.pdf,Success,"[361, 543, 0, 185]",Processed successfully
+252393.pdf,Failed,NA,ROI not found or OCR error
+252501.pdf,Success,"[399, 612, 0, 191]",Processed successfully
+252521.pdf,Failed,NA,ROI not found or OCR error
+252607.pdf,Success,"[398, 612, 0, 189]",Processed successfully
+252625.pdf,Success,"[359, 542, 0, 188]",Processed successfully
+252744.pdf,Failed,NA,ROI not found or OCR error
+252791.pdf,Failed,NA,ROI not found or OCR error
+252815.pdf,Success,"[370, 543, 0, 186]",Processed successfully
+252845.pdf,Success,"[364, 547, 0, 187]",Processed successfully
+252856.pdf,Success,"[373, 543, 0, 186]",Processed successfully
+252868.pdf,Success,"[391, 542, 0, 185]",Processed successfully
+252888.pdf,Success,"[361, 542, 0, 183]",Processed successfully
+252927.pdf,Success,"[382, 612, 0, 218]",Processed successfully
+252988.pdf,Success,"[362, 543, 0, 186]",Processed successfully
+252990.pdf,Failed,NA,ROI not found or OCR error
+253042.pdf,Failed,NA,ROI not found or OCR error
+253079.pdf,Failed,NA,ROI not found or OCR error
+253097.pdf,Failed,NA,ROI not found or OCR error
+253099.pdf,Success,"[363, 544, 0, 184]",Processed successfully
+253214.pdf,Failed,NA,ROI not found or OCR error
+253220.pdf,Failed,NA,ROI not found or OCR error
+253244.pdf,Failed,NA,ROI not found or OCR error
+253346.pdf,Failed,NA,ROI not found or OCR error
+253430.pdf,Failed,NA,ROI not found or OCR error
+253458.pdf,Success,"[366, 610, 0, 186]",Processed successfully
+253459.pdf,Success,"[392, 547, 0, 187]",Processed successfully
+253463.pdf,Success,"[365, 544, 0, 186]",Processed successfully
+253473.pdf,Failed,NA,ROI not found or OCR error
+253623.pdf,Failed,NA,ROI not found or OCR error
+253633.pdf,Success,"[423, 612, 0, 212]",Processed successfully
+253649.pdf,Failed,NA,ROI not found or OCR error
+253657.pdf,Success,"[399, 612, 0, 189]",Processed successfully
+253771.pdf,Success,"[367, 548, 0, 170]",Processed successfully
+253794.pdf,Success,"[379, 540, 0, 188]",Processed successfully
+253796.pdf,Failed,NA,ROI not found or OCR error
+253808.pdf,Success,"[360, 541, 0, 188]",Processed successfully
+253875.pdf,Success,"[376, 543, 0, 186]",Processed successfully
+253891.pdf,Failed,NA,ROI not found or OCR error
+253919.pdf,Failed,NA,ROI not found or OCR error
+253937.pdf,Success,"[372, 544, 0, 185]",Processed successfully
+253949.pdf,Failed,NA,ROI not found or OCR error
+254054.pdf,Success,"[367, 546, 0, 189]",Processed successfully
+254113.pdf,Success,"[378, 543, 0, 189]",Processed successfully
+254114.pdf,Success,"[362, 539, 0, 188]",Processed successfully
+254139.pdf,Success,"[366, 545, 0, 188]",Processed successfully
+254148.pdf,Failed,NA,ROI not found or OCR error
+254173.pdf,Success,"[384, 544, 0, 187]",Processed successfully
+254191.pdf,Success,"[362, 610, 0, 186]",Processed successfully
+254207.pdf,Failed,NA,ROI not found or OCR error
+254245.pdf,Failed,NA,ROI not found or OCR error
+254275.pdf,Success,"[364, 543, 0, 186]",Processed successfully
+254288.pdf,Success,"[365, 543, 0, 187]",Processed successfully
+254293.pdf,Success,"[367, 540, 0, 184]",Processed successfully
+254310.pdf,Failed,NA,ROI not found or OCR error
+254333.pdf,Success,"[361, 607, 0, 184]",Processed successfully
+254347.pdf,Failed,NA,ROI not found or OCR error
+254429.pdf,Success,"[382, 542, 0, 185]",Processed successfully
+254552.pdf,Failed,NA,ROI not found or OCR error
+254586.pdf,Success,"[377, 549, 0, 186]",Processed successfully
+254594.pdf,Success,"[401, 612, 0, 190]",Processed successfully
+254605.pdf,Failed,NA,ROI not found or OCR error
+254617.pdf,Failed,NA,ROI not found or OCR error
+254657.pdf,Success,"[366, 545, 0, 185]",Processed successfully
+254662.pdf,Success,"[364, 543, 0, 184]",Processed successfully
+254698.pdf,Failed,NA,ROI not found or OCR error
+254743.pdf,Success,"[364, 542, 0, 188]",Processed successfully
+254780.pdf,Success,"[364, 543, 0, 186]",Processed successfully
+254785.pdf,Failed,NA,ROI not found or OCR error
+254793.pdf,Failed,NA,ROI not found or OCR error
+254866.pdf,Success,"[364, 543, 0, 186]",Processed successfully
+254883.pdf,Success,"[390, 543, 0, 187]",Processed successfully
+254927.pdf,Failed,NA,ROI not found or OCR error
+254976.pdf,Failed,NA,ROI not found or OCR error
+255002.pdf,Success,"[365, 542, 0, 185]",Processed successfully
+255049.pdf,Failed,NA,ROI not found or OCR error
+255065.pdf,Failed,NA,ROI not found or OCR error
+255070.pdf,Failed,NA,ROI not found or OCR error
+255081.pdf,Success,"[373, 542, 0, 187]",Processed successfully
+255106.pdf,Success,"[378, 542, 0, 186]",Processed successfully
+255145.pdf,Failed,NA,ROI not found or OCR error
+255234.pdf,Success,"[380, 543, 0, 184]",Processed successfully
+255261.pdf,Success,"[365, 542, 0, 185]",Processed successfully
+255269.pdf,Success,"[375, 552, 0, 184]",Processed successfully
+255279.pdf,Success,"[364, 543, 0, 215]",Processed successfully
+255378.pdf,Success,"[374, 544, 0, 186]",Processed successfully
+255565.pdf,Success,"[365, 544, 0, 184]",Processed successfully
+255587.pdf,Failed,NA,ROI not found or OCR error
+255597.pdf,Success,"[363, 542, 0, 184]",Processed successfully
+255605.pdf,Success,"[401, 612, 0, 189]",Processed successfully
+255641.pdf,Success,"[366, 543, 0, 190]",Processed successfully
+255663.pdf,Failed,NA,ROI not found or OCR error
+255699.pdf,Success,"[366, 545, 0, 187]",Processed successfully
+255744.pdf,Failed,NA,ROI not found or OCR error
+255779.pdf,Success,"[367, 546, 0, 184]",Processed successfully
+255793.pdf,Success,"[380, 546, 0, 184]",Processed successfully
+255794.pdf,Failed,NA,ROI not found or OCR error
+255851.pdf,Failed,NA,ROI not found or OCR error
+255875.pdf,Success,"[363, 539, 0, 183]",Processed successfully
+255881.pdf,Failed,NA,ROI not found or OCR error
+255884.pdf,Success,"[365, 543, 0, 183]",Processed successfully
+255887.pdf,Failed,NA,ROI not found or OCR error
+255897.pdf,Success,"[366, 544, 0, 185]",Processed successfully
+255905.pdf,Failed,NA,ROI not found or OCR error
+255908.pdf,Failed,NA,ROI not found or OCR error
+255917.pdf,Failed,NA,ROI not found or OCR error
+255923.pdf,Success,"[365, 544, 0, 183]",Processed successfully
+255928.pdf,Failed,NA,ROI not found or OCR error
+255964.pdf,Success,"[365, 543, 0, 189]",Processed successfully
+255979.pdf,Success,"[364, 543, 0, 181]",Processed successfully
+256012.pdf,Failed,NA,ROI not found or OCR error
+256036.pdf,Failed,NA,ROI not found or OCR error
+256043.pdf,Failed,NA,ROI not found or OCR error
+256087.pdf,Failed,NA,ROI not found or OCR error
+256105.pdf,Success,"[443, 545, 0, 185]",Processed successfully
+256158.pdf,Success,"[366, 545, 0, 187]",Processed successfully
+256201.pdf,Success,"[364, 543, 0, 184]",Processed successfully
+256205.pdf,Failed,NA,ROI not found or OCR error
+256236.pdf,Success,"[368, 549, 0, 186]",Processed successfully
+256329.pdf,Success,"[375, 541, 0, 188]",Processed successfully
+256333.pdf,Success,"[365, 544, 0, 185]",Processed successfully
+256499.pdf,Failed,NA,ROI not found or OCR error
+256593.pdf,Failed,NA,ROI not found or OCR error
+256597.pdf,Success,"[368, 546, 0, 187]",Processed successfully
+256620.pdf,Failed,NA,ROI not found or OCR error
+256684.pdf,Success,"[366, 545, 0, 185]",Processed successfully
+256721.pdf,Success,"[379, 544, 0, 186]",Processed successfully
+256766.pdf,Success,"[364, 543, 0, 185]",Processed successfully
+256835.pdf,Success,"[364, 542, 0, 186]",Processed successfully
+256865.pdf,Failed,NA,ROI not found or OCR error
+256954.pdf,Success,"[446, 543, 0, 184]",Processed successfully
+256986.pdf,Failed,NA,ROI not found or OCR error
+257010.pdf,Success,"[374, 543, 0, 183]",Processed successfully
+257037.pdf,Failed,NA,ROI not found or OCR error
+257085.pdf,Failed,NA,ROI not found or OCR error
+257115.pdf,Failed,NA,ROI not found or OCR error
+257140.pdf,Failed,NA,ROI not found or OCR error
+257193.pdf,Success,"[423, 612, 0, 186]",Processed successfully
+257267.pdf,Success,"[365, 543, 0, 183]",Processed successfully
+257270.pdf,Success,"[371, 552, 0, 189]",Processed successfully
+257305 (2).pdf,Failed,NA,ROI not found or OCR error
+257305.pdf,Failed,NA,ROI not found or OCR error
+257381.pdf,Success,"[367, 556, 0, 184]",Processed successfully
+257395.pdf,Failed,NA,ROI not found or OCR error
+257429.pdf,Success,"[372, 539, 0, 184]",Processed successfully
+257583.pdf,Success,"[366, 545, 0, 185]",Processed successfully
+257611.pdf,Failed,NA,ROI not found or OCR error
+257700.pdf,Success,"[364, 545, 0, 184]",Processed successfully
+257703.pdf,Success,"[361, 610, 0, 185]",Processed successfully
+257766.pdf,Success,"[363, 542, 0, 184]",Processed successfully
+257928.pdf,Failed,NA,ROI not found or OCR error
+257932.pdf,Success,"[372, 543, 0, 186]",Processed successfully
+257960.pdf,Success,"[385, 552, 0, 181]",Processed successfully
+258054.pdf,Failed,NA,ROI not found or OCR error
+258170.pdf,Success,"[375, 550, 0, 187]",Processed successfully
+258212.pdf,Failed,NA,ROI not found or OCR error
+258258.pdf,Success,"[399, 612, 0, 188]",Processed successfully
+258273.pdf,Failed,NA,ROI not found or OCR error
+258305.pdf,Success,"[383, 542, 0, 186]",Processed successfully
+258366.pdf,Success,"[356, 610, 0, 185]",Processed successfully
+258399.pdf,Success,"[365, 542, 0, 187]",Processed successfully
+258493.pdf,Success,"[412, 610, 0, 207]",Processed successfully
+258505.pdf,Failed,NA,ROI not found or OCR error
+258509.pdf,Success,"[365, 545, 0, 186]",Processed successfully
+258537.pdf,Failed,NA,ROI not found or OCR error
+258653.pdf,Failed,NA,ROI not found or OCR error
+258656.pdf,Success,"[365, 543, 0, 187]",Processed successfully
+258677.pdf,Failed,NA,ROI not found or OCR error
+258706.pdf,Success,"[514, 610, 0, 206]",Processed successfully
+258904.pdf,Failed,NA,ROI not found or OCR error
+258914.pdf,Success,"[368, 546, 0, 183]",Processed successfully
+258926.pdf,Failed,NA,ROI not found or OCR error
+258954.pdf,Success,"[495, 612, 0, 189]",Processed successfully
+258980.pdf,Failed,NA,ROI not found or OCR error
+258994.pdf,Failed,NA,ROI not found or OCR error
+258996.pdf,Success,"[367, 546, 0, 188]",Processed successfully
+259060.pdf,Success,"[363, 542, 0, 182]",Processed successfully
+259099.pdf,Success,"[364, 542, 0, 188]",Processed successfully
+259124.pdf,Success,"[364, 543, 0, 184]",Processed successfully
+259173.pdf,Success,"[375, 506, 0, 186]",Processed successfully
+259264.pdf,Failed,NA,ROI not found or OCR error
+259281.pdf,Success,"[364, 545, 0, 185]",Processed successfully
+259293.pdf,Success,"[363, 540, 0, 188]",Processed successfully
+259333.pdf,Success,"[361, 539, 0, 185]",Processed successfully
+259381.pdf,Failed,NA,ROI not found or OCR error
+259515.pdf,Success,"[364, 545, 0, 183]",Processed successfully
+259521.pdf,Failed,NA,ROI not found or OCR error
+259525.pdf,Success,"[397, 543, 0, 189]",Processed successfully
+259548.pdf,Success,"[366, 545, 0, 188]",Processed successfully
+259569.pdf,Failed,NA,ROI not found or OCR error
+259692.pdf,Success,"[376, 541, 0, 192]",Processed successfully
+260006.pdf,Success,"[361, 549, 0, 187]",Processed successfully
+260083.pdf,Failed,NA,ROI not found or OCR error
+260143.pdf,Failed,NA,ROI not found or OCR error
+260167.pdf,Success,"[364, 543, 0, 186]",Processed successfully
+260209.pdf,Success,"[380, 544, 0, 186]",Processed successfully
+260289.pdf,Success,"[363, 542, 0, 187]",Processed successfully
+260307.pdf,Failed,NA,ROI not found or OCR error
+260505.pdf,Success,"[373, 543, 0, 185]",Processed successfully
+260535.pdf,Failed,NA,ROI not found or OCR error
+260620.pdf,Failed,NA,ROI not found or OCR error
+260668.pdf,Failed,NA,ROI not found or OCR error
+260698.pdf,Success,"[381, 610, 0, 179]",Processed successfully
+260724.pdf,Failed,NA,ROI not found or OCR error
+260736.pdf,Failed,NA,ROI not found or OCR error
+260829.pdf,Failed,NA,ROI not found or OCR error
+260847.pdf,Failed,NA,ROI not found or OCR error
+260970.pdf,Success,"[359, 537, 0, 183]",Processed successfully
+260998.pdf,Failed,NA,ROI not found or OCR error
+261048.pdf,Success,"[362, 543, 0, 187]",Processed successfully
+261112.pdf,Failed,NA,ROI not found or OCR error
+261138.pdf,Success,"[362, 543, 0, 186]",Processed successfully
+261207.pdf,Success,"[378, 543, 0, 188]",Processed successfully
+261323.pdf,Failed,NA,ROI not found or OCR error
+261325.pdf,Success,"[366, 544, 0, 186]",Processed successfully
+261339.pdf,Failed,NA,ROI not found or OCR error
+261385.pdf,Failed,NA,ROI not found or OCR error
+261423.pdf,Success,"[364, 543, 0, 189]",Processed successfully
+261509.pdf,Success,"[375, 542, 0, 185]",Processed successfully
+261760.pdf,Failed,NA,ROI not found or OCR error
+261766.pdf,Success,"[384, 542, 0, 187]",Processed successfully
+261874.pdf,Success,"[382, 544, 0, 186]",Processed successfully
+261944.pdf,Success,"[360, 540, 0, 185]",Processed successfully
+261964.pdf,Success,"[438, 612, 0, 189]",Processed successfully
+262016.pdf,Success,"[450, 612, 0, 191]",Processed successfully
+262066.pdf,Success,"[406, 544, 0, 186]",Processed successfully
+262093.pdf,Success,"[377, 610, 0, 178]",Processed successfully
+262107.pdf,Failed,NA,ROI not found or OCR error
+262112.pdf,Failed,NA,ROI not found or OCR error
+262127.pdf,Success,"[366, 545, 0, 187]",Processed successfully
+262273.pdf,Success,"[364, 542, 0, 187]",Processed successfully
+262325.pdf,Success,"[446, 542, 0, 186]",Processed successfully
+262363.pdf,Failed,NA,ROI not found or OCR error
+262389.pdf,Failed,NA,ROI not found or OCR error
+262505.pdf,Success,"[363, 543, 0, 186]",Processed successfully
+262513.pdf,Success,"[366, 547, 0, 186]",Processed successfully
+262519.pdf,Success,"[374, 543, 0, 186]",Processed successfully
+262591.pdf,Failed,Unexpected error: Failed to load document (PDFium: Data format error).
+262688.pdf,Success,"[361, 538, 0, 185]",Processed successfully
+262871.pdf,Failed,NA,ROI not found or OCR error
+262896.pdf,Failed,NA,ROI not found or OCR error
+262936.pdf,Failed,NA,ROI not found or OCR error
+262948.pdf,Failed,NA,ROI not found or OCR error
+263140.pdf,Success,"[364, 542, 0, 190]",Processed successfully
+263205.pdf,Success,"[402, 542, 0, 184]",Processed successfully
+263221.pdf,Failed,NA,ROI not found or OCR error
+263243.pdf,Success,"[365, 543, 0, 187]",Processed successfully
+263289.pdf,Success,"[425, 543, 0, 186]",Processed successfully
+263317.pdf,Success,"[439, 542, 0, 183]",Processed successfully
+263354.pdf,Failed,NA,ROI not found or OCR error
+263375.pdf,Success,"[391, 549, 0, 187]",Processed successfully
+263391.pdf,Success,"[400, 612, 0, 189]",Processed successfully
+263472.pdf,Success,"[364, 543, 0, 185]",Processed successfully
+263659.pdf,Failed,NA,ROI not found or OCR error
+263690.pdf,Success,"[377, 543, 0, 186]",Processed successfully
+263696.pdf,Failed,Unexpected error: Failed to load document (PDFium: Data format error).
+263781.pdf,Success,"[405, 612, 0, 190]",Processed successfully
+263814.pdf,Failed,NA,ROI not found or OCR error
+263896.pdf,Failed,NA,ROI not found or OCR error
+263918.pdf,Success,"[423, 612, 0, 197]",Processed successfully
+264081.pdf,Failed,NA,ROI not found or OCR error
+264095.pdf,Success,"[407, 610, 0, 210]",Processed successfully
+264236.pdf,Failed,NA,ROI not found or OCR error
+264301.pdf,Failed,NA,ROI not found or OCR error
+264339.pdf,Success,"[510, 552, 0, 184]",Processed successfully
+264360.pdf,Failed,NA,ROI not found or OCR error
+264395.pdf,Failed,NA,ROI not found or OCR error
+264529.pdf,Failed,NA,ROI not found or OCR error
+264617.pdf,Failed,NA,ROI not found or OCR error
+264656.pdf,Failed,NA,ROI not found or OCR error
+264668.pdf,Success,"[366, 547, 0, 186]",Processed successfully
+264871.pdf,Failed,NA,ROI not found or OCR error
+264978.pdf,Success,"[362, 543, 0, 183]",Processed successfully
+264990.pdf,Failed,NA,ROI not found or OCR error
+265085.pdf,Failed,NA,ROI not found or OCR error
+265105.pdf,Failed,NA,ROI not found or OCR error
+265161.pdf,Success,"[365, 539, 0, 167]",Processed successfully
+265187.pdf,Success,"[365, 542, 0, 185]",Processed successfully
+265291.pdf,Success,"[363, 546, 0, 186]",Processed successfully
+265305.pdf,Success,"[363, 542, 0, 184]",Processed successfully
+265317.pdf,Success,"[363, 543, 0, 185]",Processed successfully
+265348.pdf,Failed,NA,ROI not found or OCR error
+265393.pdf,Success,"[407, 610, 0, 210]",Processed successfully
+265417.pdf,Success,"[366, 545, 0, 185]",Processed successfully
+265431.pdf,Success,"[440, 543, 0, 184]",Processed successfully
+265485.pdf,Failed,NA,ROI not found or OCR error
+265499.pdf,Failed,NA,ROI not found or OCR error
+265531.pdf,Failed,NA,ROI not found or OCR error
+265602.pdf,Failed,NA,ROI not found or OCR error
+265614.pdf,Success,"[365, 543, 0, 185]",Processed successfully
+265686.pdf,Success,"[364, 543, 0, 185]",Processed successfully
+265934.pdf,Success,"[363, 542, 0, 187]",Processed successfully
+266031.pdf,Success,"[361, 540, 0, 186]",Processed successfully
+266037.pdf,Success,"[366, 546, 0, 186]",Processed successfully
+266083.pdf,Success,"[369, 547, 0, 185]",Processed successfully
+266112.pdf,Failed,NA,ROI not found or OCR error
+266121.pdf,Failed,NA,ROI not found or OCR error
+266197.pdf,Failed,NA,ROI not found or OCR error
+266224.pdf,Failed,NA,ROI not found or OCR error
+266240.pdf,Success,"[363, 541, 0, 185]",Processed successfully
+266345.pdf,Success,"[364, 540, 0, 187]",Processed successfully
+266351.pdf,Success,"[373, 543, 0, 186]",Processed successfully
+266401.pdf,Failed,NA,ROI not found or OCR error
+266433.pdf,Success,"[436, 545, 0, 186]",Processed successfully
+266487.pdf,Success,"[414, 612, 0, 189]",Processed successfully
+266519.pdf,Success,"[363, 541, 0, 187]",Processed successfully
+266554.pdf,Failed,NA,ROI not found or OCR error
+266560.pdf,Success,"[376, 543, 0, 185]",Processed successfully
+266684.pdf,Success,"[373, 543, 0, 188]",Processed successfully
+266690.pdf,Success,"[360, 540, 0, 185]",Processed successfully
+266694.pdf,Success,"[364, 542, 0, 187]",Processed successfully
+266841.pdf,Failed,NA,ROI not found or OCR error
+266871.pdf,Success,"[481, 544, 0, 196]",Processed successfully
+266886.pdf,Success,"[398, 543, 0, 185]",Processed successfully
+266956.pdf,Success,"[376, 543, 0, 186]",Processed successfully
+266970.pdf,Success,"[360, 606, 0, 186]",Processed successfully
+267069.pdf,Success,"[367, 545, 0, 184]",Processed successfully
+267075.pdf,Failed,NA,ROI not found or OCR error
+267224.pdf,Success,"[390, 542, 0, 186]",Processed successfully
+267232.pdf,Failed,NA,ROI not found or OCR error
+267240.pdf,Success,"[363, 543, 0, 183]",Processed successfully
+267293.pdf,Failed,NA,ROI not found or OCR error
+267454.pdf,Success,"[366, 545, 0, 188]",Processed successfully
+267533.pdf,Success,"[422, 543, 0, 179]",Processed successfully
+267581.pdf,Failed,NA,ROI not found or OCR error
+267597.pdf,Failed,NA,ROI not found or OCR error
+267611.pdf,Failed,NA,ROI not found or OCR error
+267682.pdf,Failed,NA,ROI not found or OCR error
+267775.pdf,Success,"[365, 543, 0, 187]",Processed successfully
+267820.pdf,Failed,NA,ROI not found or OCR error
+267835.pdf,Success,"[365, 543, 0, 183]",Processed successfully
+267847.pdf,Success,"[388, 554, 0, 187]",Processed successfully
+267865.pdf,Success,"[388, 542, 0, 187]",Processed successfully
+267880.pdf,Success,"[365, 543, 0, 185]",Processed successfully
+267900.pdf,Failed,NA,ROI not found or OCR error
+267940.pdf,Failed,NA,ROI not found or OCR error
+267980.pdf,Failed,NA,ROI not found or OCR error
+267984.pdf,Failed,NA,ROI not found or OCR error
+268136.pdf,Success,"[367, 543, 0, 187]",Processed successfully
+268287.pdf,Success,"[364, 543, 0, 189]",Processed successfully
+268313.pdf,Failed,NA,ROI not found or OCR error
+268372.pdf,Success,"[364, 542, 0, 187]",Processed successfully
+268409.pdf,Success,"[366, 545, 0, 188]",Processed successfully
+268423.pdf,Failed,NA,ROI not found or OCR error
+268437.pdf,Failed,NA,ROI not found or OCR error
+268439.pdf,Failed,NA,ROI not found or OCR error
+268445.pdf,Failed,NA,ROI not found or OCR error
+268478.pdf,Success,"[366, 544, 0, 186]",Processed successfully
+268493.pdf,Success,"[365, 544, 0, 184]",Processed successfully
+268499.pdf,Success,"[365, 544, 0, 187]",Processed successfully
+268569.pdf,Success,"[378, 548, 0, 188]",Processed successfully
+268581.pdf,Success,"[386, 543, 0, 185]",Processed successfully
+268712.pdf,Failed,NA,ROI not found or OCR error
+268730.pdf,Failed,NA,ROI not found or OCR error
+268760.pdf,Success,"[365, 542, 0, 186]",Processed successfully
+268781.pdf,Failed,NA,ROI not found or OCR error
+268820.pdf,Success,"[366, 533, 0, 184]",Processed successfully
+268844.pdf,Success,"[364, 543, 0, 185]",Processed successfully
+268859.pdf,Failed,NA,ROI not found or OCR error
+268926.pdf,Success,"[364, 542, 0, 184]",Processed successfully
+268982.pdf,Failed,NA,ROI not found or OCR error
+268984.pdf,Success,"[362, 542, 0, 184]",Processed successfully
+268988.pdf,Success,"[431, 543, 0, 185]",Processed successfully
+269025.pdf,Success,"[404, 543, 0, 185]",Processed successfully
+269031.pdf,Failed,NA,ROI not found or OCR error
+269138.pdf,Failed,NA,ROI not found or OCR error
+269143.pdf,Success,"[372, 539, 0, 185]",Processed successfully
+269149.pdf,Failed,NA,ROI not found or OCR error
+269176.pdf,Failed,NA,ROI not found or OCR error
+269207.pdf,Success,"[365, 545, 0, 184]",Processed successfully
+269227.pdf,Failed,NA,ROI not found or OCR error
+269265.pdf,Failed,NA,ROI not found or OCR error
+269279.pdf,Success,"[438, 542, 0, 184]",Processed successfully
+269315.pdf,Failed,NA,ROI not found or OCR error
+269342.pdf,Failed,NA,ROI not found or OCR error
+269369.pdf,Failed,NA,ROI not found or OCR error
+269411.pdf,Failed,NA,ROI not found or OCR error
+269427.pdf,Failed,NA,ROI not found or OCR error
+269485.pdf,Success,"[358, 610, 0, 185]",Processed successfully
+269533.pdf,Success,"[391, 610, 0, 208]",Processed successfully
+269551.pdf,Success,"[384, 543, 0, 185]",Processed successfully
+269641.pdf,Success,"[393, 543, 0, 186]",Processed successfully
+269668.pdf,Failed,NA,ROI not found or OCR error
+269674.pdf,Success,"[418, 612, 0, 190]",Processed successfully
+269709.pdf,Success,"[365, 542, 0, 186]",Processed successfully
+269736.pdf,Success,"[373, 547, 0, 185]",Processed successfully
+269920.pdf,Success,"[365, 543, 0, 187]",Processed successfully
+269938.pdf,Success,"[365, 544, 0, 186]",Processed successfully
+269992.pdf,Success,"[367, 542, 0, 184]",Processed successfully
+270085.pdf,Success,"[401, 612, 0, 191]",Processed successfully
+270138.pdf,Success,"[373, 541, 0, 186]",Processed successfully
+270176.pdf,Success,"[374, 541, 0, 187]",Processed successfully
+270203.pdf,Failed,NA,ROI not found or OCR error
+270249.pdf,Success,"[368, 548, 0, 187]",Processed successfully
+270281.pdf,Success,"[375, 561, 0, 188]",Processed successfully
+270295.pdf,Failed,NA,ROI not found or OCR error
+270429.pdf,Success,"[409, 610, 0, 206]",Processed successfully
+270431.pdf,Failed,NA,ROI not found or OCR error
+270457.pdf,Failed,NA,ROI not found or OCR error
+270539.pdf,Failed,NA,ROI not found or OCR error
+270545.pdf,Success,"[374, 542, 0, 190]",Processed successfully
+270589.pdf,Failed,NA,ROI not found or OCR error
+270635.pdf,Failed,NA,ROI not found or OCR error
+270668.pdf,Failed,NA,ROI not found or OCR error
+270975.pdf,Success,"[398, 543, 0, 196]",Processed successfully
+271001.pdf,Success,"[414, 612, 0, 191]",Processed successfully
+271032.pdf,Failed,NA,ROI not found or OCR error
+271049.pdf,Failed,NA,ROI not found or OCR error
+271140.pdf,Failed,NA,ROI not found or OCR error
+271146.pdf,Success,"[365, 543, 0, 192]",Processed successfully
+271183.pdf,Failed,NA,ROI not found or OCR error
+271281.pdf,Failed,NA,ROI not found or OCR error
+271325.pdf,Failed,NA,ROI not found or OCR error
+271342.pdf,Success,"[366, 544, 0, 190]",Processed successfully
+271385.pdf,Success,"[368, 543, 0, 189]",Processed successfully
+271421.pdf,Failed,NA,ROI not found or OCR error
+271481.pdf,Failed,NA,ROI not found or OCR error
+271485.pdf,Success,"[413, 610, 0, 205]",Processed successfully
+271507.pdf,Failed,NA,ROI not found or OCR error
+271519.pdf,Success,"[416, 546, 0, 190]",Processed successfully
+271591.pdf,Failed,NA,ROI not found or OCR error
+271715.pdf,Success,"[418, 542, 0, 189]",Processed successfully
+271727.pdf,Success,"[387, 542, 0, 188]",Processed successfully
+271772.pdf,Failed,NA,ROI not found or OCR error
+271808.pdf,Failed,NA,ROI not found or OCR error
+271932.pdf,Failed,NA,ROI not found or OCR error
+272000.pdf,Failed,NA,ROI not found or OCR error
+272028.pdf,Failed,NA,ROI not found or OCR error
+272057.pdf,Success,"[456, 547, 0, 190]",Processed successfully
+272078.pdf,Failed,NA,ROI not found or OCR error
+272107.pdf,Success,"[408, 612, 0, 192]",Processed successfully
+272112.pdf,Failed,NA,ROI not found or OCR error
+272140.pdf,Success,"[371, 544, 0, 189]",Processed successfully
+272176.pdf,Success,"[382, 543, 0, 188]",Processed successfully
+272181.pdf,Failed,NA,ROI not found or OCR error
+272189.pdf,Failed,NA,ROI not found or OCR error
+272195.pdf,Success,"[381, 544, 0, 187]",Processed successfully
+272289.pdf,Success,"[378, 544, 0, 188]",Processed successfully
+272303.pdf,Failed,NA,ROI not found or OCR error
+272475.pdf,Failed,NA,ROI not found or OCR error
+272489.pdf,Success,"[375, 543, 0, 187]",Processed successfully
+272563.pdf,Success,"[366, 543, 0, 186]",Processed successfully
+272595.pdf,Success,"[375, 544, 0, 187]",Processed successfully
+272703.pdf,Failed,NA,ROI not found or OCR error
+272742.pdf,Failed,NA,ROI not found or OCR error
+272787.pdf,Success,"[404, 544, 0, 189]",Processed successfully
+272896.pdf,Success,"[387, 544, 0, 190]",Processed successfully
+272916.pdf,Success,"[374, 541, 0, 190]",Processed successfully
+272978.pdf,Success,"[366, 543, 0, 187]",Processed successfully
+272988.pdf,Success,"[383, 544, 0, 218]",Processed successfully
+273093.pdf,Failed,NA,ROI not found or OCR error
+273167.pdf,Failed,NA,ROI not found or OCR error
+273291.pdf,Success,"[382, 540, 0, 188]",Processed successfully
+273301.pdf,Success,"[361, 539, 0, 188]",Processed successfully
+273346.pdf,Success,"[389, 543, 0, 187]",Processed successfully
+273409.pdf,Failed,NA,ROI not found or OCR error
+273421.pdf,Success,"[365, 542, 0, 188]",Processed successfully
+273425.pdf,Failed,NA,ROI not found or OCR error
+273437.pdf,Success,"[377, 544, 0, 188]",Processed successfully
+273469.pdf,Failed,NA,ROI not found or OCR error
+273478.pdf,Success,"[364, 544, 0, 189]",Processed successfully
+273650.pdf,Success,"[389, 544, 0, 189]",Processed successfully
+273659.pdf,Success,"[365, 545, 0, 187]",Processed successfully
+273733.pdf,Failed,NA,ROI not found or OCR error
+273898.pdf,Failed,NA,ROI not found or OCR error
+273914.pdf,Success,"[366, 545, 0, 187]",Processed successfully
+273918.pdf,Failed,NA,ROI not found or OCR error
+273928.pdf,Success,"[374, 543, 0, 189]",Processed successfully
+273960.pdf,Success,"[384, 544, 0, 185]",Processed successfully
+274031.pdf,Failed,NA,ROI not found or OCR error
+274042.pdf,Success,"[362, 610, 0, 187]",Processed successfully
+274236.pdf,Success,"[369, 549, 0, 186]",Processed successfully
+274267.pdf,Failed,NA,ROI not found or OCR error
+274301.pdf,Failed,NA,ROI not found or OCR error
+274323.pdf,Success,"[368, 549, 0, 220]",Processed successfully
+274507.pdf,Success,"[359, 543, 0, 187]",Processed successfully
+274509.pdf,Failed,NA,ROI not found or OCR error
+274589.pdf,Success,"[446, 542, 0, 185]",Processed successfully
+274635.pdf,Failed,NA,ROI not found or OCR error
+274795.pdf,Success,"[366, 544, 0, 188]",Processed successfully
+274865.pdf,Failed,NA,ROI not found or OCR error
+274888.pdf,Failed,NA,ROI not found or OCR error
+274936.pdf,Success,"[362, 542, 0, 188]",Processed successfully
+275000.pdf,Failed,NA,ROI not found or OCR error
+275072.pdf,Success,"[359, 605, 0, 183]",Processed successfully
+275136.pdf,Success,"[373, 541, 0, 186]",Processed successfully
+275138.pdf,Success,"[365, 542, 0, 187]",Processed successfully
+275230.pdf,Success,"[385, 544, 0, 190]",Processed successfully
+275267.pdf,Failed,NA,ROI not found or OCR error
+275366.pdf,Failed,NA,ROI not found or OCR error
+275387.pdf,Failed,NA,ROI not found or OCR error
+275395.pdf,Failed,NA,ROI not found or OCR error
+275399.pdf,Success,"[369, 545, 0, 188]",Processed successfully
+275431.pdf,Success,"[403, 612, 0, 192]",Processed successfully
+275432.pdf,Success,"[371, 541, 0, 188]",Processed successfully
+275446.pdf,Success,"[370, 544, 0, 188]",Processed successfully
+275605.pdf,Success,"[394, 542, 0, 184]",Processed successfully
+275692.pdf,Success,"[377, 544, 0, 188]",Processed successfully
+275712.pdf,Failed,NA,ROI not found or OCR error
+275778.pdf,Failed,NA,ROI not found or OCR error
+275787.pdf,Failed,NA,ROI not found or OCR error
+275811.pdf,Failed,NA,ROI not found or OCR error
+275865.pdf,Success,"[366, 544, 0, 192]",Processed successfully
+275892.pdf,Failed,NA,ROI not found or OCR error
+275920.pdf,Failed,NA,ROI not found or OCR error
+275922.pdf,Success,"[390, 544, 0, 185]",Processed successfully
+275970.pdf,Success,"[364, 541, 0, 187]",Processed successfully
+276008.pdf,Success,"[389, 612, 0, 189]",Processed successfully
+276025.pdf,Failed,NA,ROI not found or OCR error
+276095.pdf,Failed,NA,ROI not found or OCR error
+276152.pdf,Success,"[374, 543, 0, 188]",Processed successfully
+276158.pdf,Failed,NA,ROI not found or OCR error
+276255.pdf,Failed,NA,ROI not found or OCR error
+276299.pdf,Success,"[367, 544, 0, 187]",Processed successfully
+276307.pdf,Success,"[413, 612, 0, 189]",Processed successfully
+276311.pdf,Success,"[376, 543, 0, 184]",Processed successfully
+276319.pdf,Success,"[379, 544, 0, 194]",Processed successfully
+276360.pdf,Success,"[380, 544, 0, 187]",Processed successfully
+276503.pdf,Failed,NA,ROI not found or OCR error
+276605.pdf,Success,"[439, 612, 0, 190]",Processed successfully
+276647.pdf,Success,"[371, 539, 0, 191]",Processed successfully
+276727.pdf,Failed,NA,ROI not found or OCR error
+276797.pdf,Failed,NA,ROI not found or OCR error
+276811.pdf,Success,"[370, 544, 0, 186]",Processed successfully
+276904.pdf,Success,"[367, 547, 0, 185]",Processed successfully
+276908.pdf,Success,"[382, 543, 0, 189]",Processed successfully
+276948.pdf,Failed,NA,ROI not found or OCR error
+276968.pdf,Failed,NA,ROI not found or OCR error
+277138.pdf,Failed,NA,ROI not found or OCR error
+277155.pdf,Success,"[371, 544, 0, 186]",Processed successfully
+277158.pdf,Success,"[370, 548, 0, 222]",Processed successfully
+277199.pdf,Success,"[383, 544, 0, 185]",Processed successfully
+277249.pdf,Success,"[367, 550, 0, 188]",Processed successfully
+277291.pdf,Failed,NA,ROI not found or OCR error
+277393.pdf,Failed,NA,ROI not found or OCR error
+277415.pdf,Success,"[440, 544, 0, 190]",Processed successfully
+277419.pdf,Success,"[396, 612, 0, 198]",Processed successfully
+277429.pdf,Failed,NA,ROI not found or OCR error
+277448.pdf,Failed,NA,ROI not found or OCR error
+277481.pdf,Failed,NA,ROI not found or OCR error
+277501.pdf,Success,"[365, 544, 0, 184]",Processed successfully
+277503.pdf,Failed,NA,ROI not found or OCR error
+277591.pdf,Success,"[431, 612, 0, 190]",Processed successfully
+277656.pdf,Failed,NA,ROI not found or OCR error
+277671.pdf,Success,"[385, 544, 0, 215]",Processed successfully
+277706.pdf,Success,"[373, 543, 0, 185]",Processed successfully
+277730.pdf,Failed,NA,ROI not found or OCR error
+277736.pdf,Success,"[509, 544, 0, 185]",Processed successfully
+277751.pdf,Failed,NA,ROI not found or OCR error
+277754.pdf,Failed,NA,ROI not found or OCR error
+277795.pdf,Failed,NA,ROI not found or OCR error
+277805.pdf,Failed,NA,ROI not found or OCR error
+277906.pdf,Success,"[403, 553, 0, 185]",Processed successfully
+277910.pdf,Success,"[383, 545, 0, 184]",Processed successfully
+277940.pdf,Failed,NA,ROI not found or OCR error
+277946.pdf,Failed,NA,ROI not found or OCR error
+277956.pdf,Success,"[402, 612, 0, 187]",Processed successfully
+277966.pdf,Success,"[365, 545, 0, 184]",Processed successfully
+277974.pdf,Success,"[467, 544, 0, 187]",Processed successfully
+277982.pdf,Success,"[364, 542, 0, 185]",Processed successfully
+278013.pdf,Success,"[400, 612, 0, 188]",Processed successfully
+278051.pdf,Success,"[364, 543, 0, 185]",Processed successfully
+278069.pdf,Failed,NA,ROI not found or OCR error
+278101.pdf,Failed,NA,ROI not found or OCR error
+278130.pdf,Success,"[368, 541, 0, 186]",Processed successfully
+278158.pdf,Failed,NA,ROI not found or OCR error
+278161.pdf,Failed,NA,ROI not found or OCR error
+278167.pdf,Success,"[368, 547, 0, 186]",Processed successfully
+278183.pdf,Success,"[380, 559, 0, 189]",Processed successfully
+278221.pdf,Failed,NA,ROI not found or OCR error
+278243.pdf,Success,"[364, 543, 0, 186]",Processed successfully
+278246.pdf,Success,"[379, 542, 0, 186]",Processed successfully
+278299.pdf,Failed,NA,ROI not found or OCR error
+278301.pdf,Success,"[370, 542, 0, 187]",Processed successfully
+278317.pdf,Success,"[378, 542, 0, 187]",Processed successfully
+278319.pdf,Success,"[376, 544, 0, 189]",Processed successfully
+278423.pdf,Failed,NA,ROI not found or OCR error
+278557.pdf,Success,"[363, 542, 0, 185]",Processed successfully
+278591.pdf,Failed,NA,ROI not found or OCR error
+278629.pdf,Success,"[365, 543, 0, 187]",Processed successfully
+278641.pdf,Success,"[373, 610, 0, 190]",Processed successfully
+278659.pdf,Success,"[377, 543, 0, 189]",Processed successfully
+278668.pdf,Failed,NA,ROI not found or OCR error
+278718.pdf,Success,"[375, 543, 0, 188]",Processed successfully
+278727.pdf,Success,"[378, 549, 0, 190]",Processed successfully
+278745.pdf,Success,"[377, 543, 0, 183]",Processed successfully
+278754.pdf,Success,"[364, 542, 0, 187]",Processed successfully
+278805.pdf,Failed,NA,ROI not found or OCR error
+278874.pdf,Failed,NA,ROI not found or OCR error
+279010.pdf,Success,"[371, 539, 0, 188]",Processed successfully
+279016.pdf,Success,"[388, 543, 0, 185]",Processed successfully
+279112.pdf,Success,"[365, 543, 0, 187]",Processed successfully
+279138.pdf,Failed,NA,ROI not found or OCR error
+279149.pdf,Success,"[376, 543, 0, 187]",Processed successfully
+279158.pdf,Success,"[423, 612, 0, 222]",Processed successfully
+279197.pdf,Failed,NA,ROI not found or OCR error
+279243.pdf,Failed,NA,ROI not found or OCR error
+279246.pdf,Success,"[367, 542, 0, 185]",Processed successfully
+279293.pdf,Success,"[388, 543, 0, 186]",Processed successfully
+279297.pdf,Success,"[369, 543, 0, 188]",Processed successfully
+279335.pdf,Failed,NA,ROI not found or OCR error
+279391.pdf,Failed,NA,ROI not found or OCR error
+279409.pdf,Success,"[375, 544, 0, 216]",Processed successfully
+279411.pdf,Failed,NA,ROI not found or OCR error
+279531.pdf,Failed,NA,ROI not found or OCR error
+279593.pdf,Success,"[371, 552, 0, 218]",Processed successfully
+279597.pdf,Success,"[369, 544, 0, 186]",Processed successfully
+279602.pdf,Success,"[405, 612, 0, 190]",Processed successfully
+279611.pdf,Success,"[378, 543, 0, 184]",Processed successfully
+279674.pdf,Success,"[365, 541, 0, 184]",Processed successfully
+279686.pdf,Failed,NA,ROI not found or OCR error
+279706.pdf,Failed,NA,ROI not found or OCR error
+279733.pdf,Failed,NA,ROI not found or OCR error
+279736.pdf,Success,"[367, 545, 0, 189]",Processed successfully
+279778.pdf,Failed,NA,ROI not found or OCR error
+279908.pdf,Success,"[479, 612, 0, 187]",Processed successfully
+279920.pdf,Success,"[373, 549, 0, 184]",Processed successfully
+280025.pdf,Success,"[366, 544, 0, 186]",Processed successfully
+280193.pdf,Success,"[367, 543, 0, 185]",Processed successfully
+280267.pdf,Success,"[371, 542, 0, 182]",Processed successfully
+280276.pdf,Success,"[403, 544, 0, 184]",Processed successfully
+280281.pdf,Success,"[379, 546, 0, 186]",Processed successfully
+280295.pdf,Failed,NA,ROI not found or OCR error
+280299.pdf,Success,"[369, 546, 0, 180]",Processed successfully
+280301.pdf,Failed,NA,ROI not found or OCR error
+280307.pdf,Failed,NA,ROI not found or OCR error
+280317.pdf,Success,"[404, 612, 0, 191]",Processed successfully
+280329.pdf,Failed,NA,ROI not found or OCR error
+280383.pdf,Success,"[377, 550, 0, 186]",Processed successfully
+280413.pdf,Failed,NA,ROI not found or OCR error
+280421.pdf,Failed,NA,ROI not found or OCR error
+280499.pdf,Success,"[383, 543, 0, 188]",Processed successfully
+280501.pdf,Failed,NA,ROI not found or OCR error
+280529.pdf,Failed,NA,ROI not found or OCR error
+280850.pdf,Success,"[376, 544, 0, 187]",Processed successfully
+280892.pdf,Success,"[372, 546, 0, 188]",Processed successfully
+280910.pdf,Success,"[373, 545, 0, 182]",Processed successfully
+280950.pdf,Failed,NA,ROI not found or OCR error
+280984.pdf,Failed,NA,ROI not found or OCR error
+280996.pdf,Success,"[365, 544, 0, 187]",Processed successfully
+281031.pdf,Success,"[402, 612, 0, 191]",Processed successfully
+281236.pdf,Failed,NA,ROI not found or OCR error
+281270.pdf,Failed,NA,ROI not found or OCR error
+281415.pdf,Success,"[365, 542, 0, 187]",Processed successfully
+281423.pdf,Failed,NA,ROI not found or OCR error
+281427.pdf,Success,"[454, 543, 0, 183]",Processed successfully
+281497.pdf,Failed,NA,ROI not found or OCR error
+281505.pdf,Success,"[360, 544, 0, 187]",Processed successfully
+281513.pdf,Failed,NA,ROI not found or OCR error
+281537.pdf,Failed,NA,ROI not found or OCR error
+281602.pdf,Success,"[373, 551, 0, 188]",Processed successfully
+281611.pdf,Success,"[377, 544, 0, 183]",Processed successfully
+281641.pdf,Success,"[409, 610, 0, 212]",Processed successfully
+281650.pdf,Success,"[365, 543, 0, 185]",Processed successfully
+281694.pdf,Failed,NA,ROI not found or OCR error
+281718.pdf,Success,"[364, 546, 0, 189]",Processed successfully
+281730.pdf,Failed,NA,ROI not found or OCR error
+281760.pdf,Success,"[385, 543, 0, 189]",Processed successfully
+281832.pdf,Success,"[419, 612, 0, 188]",Processed successfully
+281835.pdf,Success,"[360, 536, 0, 188]",Processed successfully
+281882.pdf,Failed,NA,ROI not found or OCR error
+281884.pdf,Success,"[366, 543, 0, 188]",Processed successfully
+281942.pdf,Failed,NA,ROI not found or OCR error
+281962.pdf,Failed,NA,ROI not found or OCR error
+281998.pdf,Success,"[429, 543, 0, 189]",Processed successfully
+282028.pdf,Failed,NA,ROI not found or OCR error
+282042.pdf,Failed,NA,ROI not found or OCR error
+282054.pdf,Success,"[366, 544, 0, 187]",Processed successfully
+282066.pdf,Success,"[405, 612, 0, 190]",Processed successfully
+282087.pdf,Failed,NA,ROI not found or OCR error
+282101.pdf,Failed,NA,ROI not found or OCR error
+282221.pdf,Success,"[379, 542, 0, 184]",Processed successfully
+282236.pdf,Success,"[386, 548, 0, 187]",Processed successfully
+282238.pdf,Success,"[371, 549, 0, 185]",Processed successfully
+282249.pdf,Success,"[363, 541, 0, 187]",Processed successfully
+282319.pdf,Failed,NA,ROI not found or OCR error
+282337.pdf,Success,"[435, 612, 0, 191]",Processed successfully
+282429.pdf,Success,"[367, 543, 0, 186]",Processed successfully
+282435.pdf,Failed,NA,ROI not found or OCR error
+282437.pdf,Failed,NA,ROI not found or OCR error
+282472.pdf,Success,"[400, 612, 0, 189]",Processed successfully
+282481.pdf,Success,"[378, 543, 0, 192]",Processed successfully
+282499.pdf,Failed,NA,ROI not found or OCR error
+282515.pdf,Success,"[409, 612, 0, 191]",Processed successfully
+282527.pdf,Success,"[369, 543, 0, 186]",Processed successfully
+282529.pdf,Failed,NA,ROI not found or OCR error
+282535.pdf,Failed,NA,ROI not found or OCR error
+282539.pdf,Success,"[367, 544, 0, 185]",Processed successfully
+282632.pdf,Failed,NA,ROI not found or OCR error
+282662.pdf,Failed,NA,ROI not found or OCR error
+282703.pdf,Success,"[371, 547, 0, 187]",Processed successfully
+282709.pdf,Failed,NA,ROI not found or OCR error
+282727.pdf,Success,"[363, 539, 0, 187]",Processed successfully
+282754.pdf,Failed,NA,ROI not found or OCR error
+282789.pdf,Success,"[368, 543, 0, 186]",Processed successfully
+282820.pdf,Failed,NA,ROI not found or OCR error
+282924.pdf,Success,"[369, 543, 0, 190]",Processed successfully
+282930.pdf,Failed,NA,ROI not found or OCR error
+282940.pdf,Failed,NA,ROI not found or OCR error
+282968.pdf,Success,"[363, 541, 0, 185]",Processed successfully
+282996.pdf,Success,"[369, 543, 0, 189]",Processed successfully
+283016.pdf,Success,"[369, 543, 0, 190]",Processed successfully
+283039.pdf,Failed,NA,ROI not found or OCR error
+283063.pdf,Failed,NA,ROI not found or OCR error
+283069.pdf,Success,"[375, 544, 0, 181]",Processed successfully
+283097.pdf,Success,"[368, 543, 0, 187]",Processed successfully
+283121.pdf,Failed,NA,ROI not found or OCR error
+283138.pdf,Success,"[370, 545, 0, 186]",Processed successfully
+283152.pdf,Failed,NA,ROI not found or OCR error
+283185.pdf,Failed,NA,ROI not found or OCR error
+283187.pdf,Success,"[373, 545, 0, 189]",Processed successfully
+283232.pdf,Failed,NA,ROI not found or OCR error
+283291.pdf,Failed,NA,ROI not found or OCR error
+283293.pdf,Failed,NA,ROI not found or OCR error
+283329.pdf,Failed,NA,ROI not found or OCR error
+283421.pdf,Failed,NA,ROI not found or OCR error
+283507.pdf,Failed,NA,ROI not found or OCR error
+283587.pdf,Success,"[374, 545, 0, 185]",Processed successfully
+283589.pdf,Success,"[372, 544, 0, 187]",Processed successfully
+283641.pdf,Failed,NA,ROI not found or OCR error
+283653.pdf,Success,"[404, 612, 0, 191]",Processed successfully
+283793.pdf,Success,"[386, 612, 0, 187]",Processed successfully
+283829.pdf,Failed,NA,ROI not found or OCR error
+283853.pdf,Success,"[369, 542, 0, 189]",Processed successfully
+283862.pdf,Success,"[370, 545, 0, 188]",Processed successfully
+284028.pdf,Success,"[373, 544, 0, 188]",Processed successfully
+284051.pdf,Failed,NA,ROI not found or OCR error
+284087.pdf,Failed,NA,ROI not found or OCR error
+284140.pdf,Failed,NA,ROI not found or OCR error
+284143.pdf,Failed,NA,ROI not found or OCR error
+284283.pdf,Success,"[366, 547, 0, 219]",Processed successfully
+284287.pdf,Success,"[418, 543, 0, 186]",Processed successfully
+284293.pdf,Failed,NA,ROI not found or OCR error
+284319.pdf,Success,"[368, 538, 0, 189]",Processed successfully
+284323.pdf,Failed,NA,ROI not found or OCR error
+284395.pdf,Success,"[407, 543, 0, 193]",Processed successfully
+284409.pdf,Failed,NA,ROI not found or OCR error
+284419.pdf,Success,"[372, 545, 0, 186]",Processed successfully
+284423.pdf,Success,"[383, 550, 0, 190]",Processed successfully
+284442.pdf,Failed,NA,ROI not found or OCR error
+284493.pdf,Failed,NA,ROI not found or OCR error
+284517.pdf,Failed,NA,ROI not found or OCR error
+284602.pdf,Success,"[362, 539, 0, 189]",Processed successfully
+284623.pdf,Failed,NA,ROI not found or OCR error
+284694.pdf,Failed,NA,ROI not found or OCR error
+284698.pdf,Success,"[371, 543, 0, 187]",Processed successfully
+284718.pdf,Failed,NA,ROI not found or OCR error
+284739.pdf,Failed,NA,ROI not found or OCR error
+284766.pdf,Failed,NA,ROI not found or OCR error
+284772.pdf,Success,"[368, 542, 0, 188]",Processed successfully
+284805.pdf,Failed,NA,ROI not found or OCR error
+284856.pdf,Failed,NA,ROI not found or OCR error
+284884.pdf,Success,"[389, 543, 0, 190]",Processed successfully
+284888.pdf,Failed,NA,ROI not found or OCR error
+284891.pdf,Success,"[368, 544, 0, 188]",Processed successfully
+284962.pdf,Failed,NA,ROI not found or OCR error
+284982.pdf,Success,"[367, 545, 0, 188]",Processed successfully
+285081.pdf,Success,"[369, 543, 0, 188]",Processed successfully
+285132.pdf,Success,"[373, 547, 0, 188]",Processed successfully
+285201.pdf,Failed,NA,ROI not found or OCR error
+285205.pdf,Success,"[368, 546, 0, 189]",Processed successfully
+285212.pdf,Success,"[369, 548, 0, 191]",Processed successfully
+285285.pdf,Failed,Unexpected error: Failed to load document (PDFium: Data format error).
+285301.pdf,Failed,NA,ROI not found or OCR error
+285451.pdf,Failed,NA,ROI not found or OCR error
+285454.pdf,Success,"[362, 541, 0, 188]",Processed successfully
+285487.pdf,Failed,NA,ROI not found or OCR error
+285523.pdf,Failed,NA,ROI not found or OCR error
+285537.pdf,Success,"[377, 546, 0, 189]",Processed successfully
+285569.pdf,Success,"[383, 547, 0, 188]",Processed successfully
+285575.pdf,Failed,NA,ROI not found or OCR error
+285733.pdf,Success,"[377, 548, 0, 189]",Processed successfully
+285760.pdf,Failed,NA,ROI not found or OCR error
+285795.pdf,Failed,NA,ROI not found or OCR error
+285811.pdf,Success,"[370, 548, 0, 187]",Processed successfully
+285817.pdf,Failed,NA,ROI not found or OCR error
+285835.pdf,Success,"[365, 544, 0, 187]",Processed successfully
+285898.pdf,Failed,NA,ROI not found or OCR error
+285922.pdf,Failed,NA,ROI not found or OCR error
+285974.pdf,Failed,NA,ROI not found or OCR error
+286002.pdf,Success,"[378, 547, 0, 190]",Processed successfully
+286010.pdf,Success,"[364, 543, 0, 185]",Processed successfully
+286115.pdf,Success,"[372, 547, 0, 189]",Processed successfully
+286121.pdf,Success,"[368, 543, 0, 189]",Processed successfully
+286152.pdf,Success,"[374, 543, 0, 187]",Processed successfully
+286209.pdf,Failed,NA,ROI not found or OCR error
+286227.pdf,Success,"[362, 538, 0, 186]",Processed successfully
+286305.pdf,Success,"[409, 612, 0, 190]",Processed successfully
+286429.pdf,Success,"[371, 545, 0, 187]",Processed successfully
+286439.pdf,Success,"[448, 543, 0, 188]",Processed successfully
+286442.pdf,Failed,NA,ROI not found or OCR error
+286511.pdf,Failed,NA,ROI not found or OCR error
+286513.pdf,Success,"[364, 543, 0, 188]",Processed successfully
+286629.pdf,Success,"[405, 612, 0, 198]",Processed successfully
+286671.pdf,Failed,NA,ROI not found or OCR error
+286688.pdf,Failed,NA,ROI not found or OCR error
+286748.pdf,Success,"[439, 612, 0, 191]",Processed successfully
+286787.pdf,Success,"[382, 543, 0, 184]",Processed successfully
+286900.pdf,Success,"[371, 543, 0, 188]",Processed successfully
+286904.pdf,Success,"[368, 543, 0, 219]",Processed successfully
+286912.pdf,Success,"[376, 543, 0, 188]",Processed successfully
+287025.pdf,Failed,NA,ROI not found or OCR error
+287028.pdf,Success,"[392, 544, 0, 187]",Processed successfully
+287054.pdf,Failed,NA,ROI not found or OCR error
+287066.pdf,Success,"[367, 543, 0, 187]",Processed successfully
+287161.pdf,Success,"[369, 543, 0, 188]",Processed successfully
+287170.pdf,Success,"[432, 550, 0, 190]",Processed successfully
+287179.pdf,Success,"[363, 543, 0, 188]",Processed successfully
+287335.pdf,Success,"[365, 539, 0, 189]",Processed successfully
+287403.pdf,Failed,NA,ROI not found or OCR error
+287427.pdf,Failed,NA,ROI not found or OCR error
+287460.pdf,Success,"[361, 542, 0, 185]",Processed successfully
+287472.pdf,Success,"[366, 544, 0, 178]",Processed successfully
+287495.pdf,Failed,NA,ROI not found or OCR error
+287503.pdf,Failed,NA,ROI not found or OCR error
+287505.pdf,Success,"[401, 546, 0, 188]",Processed successfully
+287521.pdf,Success,"[362, 543, 0, 188]",Processed successfully
+287715.pdf,Failed,NA,ROI not found or OCR error
+287760.pdf,Success,"[447, 610, 0, 204]",Processed successfully
+287850.pdf,Failed,NA,ROI not found or OCR error
+287853.pdf,Success,"[388, 541, 0, 189]",Processed successfully
+287894.pdf,Success,"[371, 546, 0, 219]",Processed successfully
+287966.pdf,Success,"[383, 544, 0, 187]",Processed successfully
+288025.pdf,Failed,NA,ROI not found or OCR error
+288069.pdf,Failed,NA,ROI not found or OCR error
+288087.pdf,Failed,NA,ROI not found or OCR error
+288101.pdf,Failed,NA,ROI not found or OCR error
+288134.pdf,Success,"[452, 612, 0, 189]",Processed successfully
+288303.pdf,Success,"[374, 544, 0, 186]",Processed successfully
+288307.pdf,Failed,NA,ROI not found or OCR error
+288363.pdf,Failed,NA,ROI not found or OCR error
+288383.pdf,Failed,NA,ROI not found or OCR error
+288433.pdf,Success,"[369, 544, 0, 186]",Processed successfully
+288448.pdf,Failed,NA,ROI not found or OCR error
+288469.pdf,Success,"[467, 548, 0, 220]",Processed successfully
+288483.pdf,Success,"[427, 612, 0, 205]",Processed successfully
+288501.pdf,Success,"[403, 543, 0, 187]",Processed successfully
+288548.pdf,Failed,NA,ROI not found or OCR error
+288647.pdf,Failed,NA,ROI not found or OCR error
+288656.pdf,Failed,NA,ROI not found or OCR error
+288690.pdf,Failed,NA,ROI not found or OCR error
+288760.pdf,Success,"[374, 542, 0, 186]",Processed successfully
+288763.pdf,Failed,NA,ROI not found or OCR error
+288797.pdf,Success,"[389, 543, 0, 187]",Processed successfully
+288817.pdf,Success,"[368, 545, 0, 188]",Processed successfully
+288826.pdf,Failed,NA,ROI not found or OCR error
+288868.pdf,Failed,NA,ROI not found or OCR error
+288892.pdf,Failed,NA,ROI not found or OCR error
+288930.pdf,Success,"[371, 550, 0, 220]",Processed successfully
+288934.pdf,Success,"[414, 612, 0, 190]",Processed successfully
+288948.pdf,Success,"[375, 552, 0, 190]",Processed successfully
+288978.pdf,Failed,NA,ROI not found or OCR error
+288980.pdf,Success,"[434, 545, 0, 189]",Processed successfully
+289016.pdf,Success,"[403, 612, 0, 191]",Processed successfully
+289051.pdf,Success,"[369, 544, 0, 187]",Processed successfully
+289075.pdf,Success,"[367, 544, 0, 186]",Processed successfully
+289099.pdf,Success,"[434, 545, 0, 189]",Processed successfully
+289158.pdf,Success,"[373, 541, 0, 187]",Processed successfully
+289179.pdf,Failed,NA,ROI not found or OCR error
+289224.pdf,Success,"[373, 541, 0, 189]",Processed successfully
+289299.pdf,Failed,NA,ROI not found or OCR error
+289301.pdf,Success,"[450, 612, 0, 189]",Processed successfully
+289411.pdf,Success,"[506, 546, 0, 183]",Processed successfully
+289417.pdf,Success,"[376, 544, 0, 188]",Processed successfully
+289423.pdf,Failed,NA,ROI not found or OCR error
+289435.pdf,Failed,NA,ROI not found or OCR error
+289457.pdf,Success,"[375, 543, 0, 186]",Processed successfully
+289511.pdf,Success,"[368, 610, 0, 188]",Processed successfully
+289513.pdf,Success,"[387, 544, 0, 190]",Processed successfully
+289517.pdf,Failed,NA,ROI not found or OCR error
+289569.pdf,Success,"[443, 543, 0, 187]",Processed successfully
+289583.pdf,Failed,NA,ROI not found or OCR error
+289688.pdf,Failed,NA,ROI not found or OCR error
+289838.pdf,Failed,NA,ROI not found or OCR error
+289856.pdf,Failed,NA,ROI not found or OCR error
+289906.pdf,Failed,NA,ROI not found or OCR error
+289914.pdf,Success,"[365, 542, 0, 188]",Processed successfully
+289970.pdf,Success,"[398, 549, 0, 188]",Processed successfully
+289992.pdf,Success,"[368, 545, 0, 186]",Processed successfully
+290000.pdf,Failed,NA,ROI not found or OCR error
+290028.pdf,Failed,NA,ROI not found or OCR error
+290031.pdf,Success,"[367, 544, 0, 186]",Processed successfully
+290078.pdf,Success,"[381, 543, 0, 189]",Processed successfully
+290085.pdf,Success,"[370, 545, 0, 189]",Processed successfully
+290115.pdf,Success,"[371, 545, 0, 190]",Processed successfully
+290167.pdf,Success,"[448, 543, 0, 188]",Processed successfully
+290209.pdf,Success,"[412, 543, 0, 186]",Processed successfully
+290218.pdf,Failed,NA,ROI not found or OCR error
+290240.pdf,Failed,NA,ROI not found or OCR error
+290243.pdf,Failed,NA,ROI not found or OCR error
+290276.pdf,Failed,NA,ROI not found or OCR error
+290303.pdf,Failed,NA,ROI not found or OCR error
+290351.pdf,Success,"[376, 547, 0, 190]",Processed successfully
+290389.pdf,Failed,NA,ROI not found or OCR error
+290421.pdf,Failed,NA,ROI not found or OCR error
+290531.pdf,Failed,NA,ROI not found or OCR error
+290545.pdf,Success,"[363, 539, 0, 185]",Processed successfully
+290611.pdf,Success,"[529, 542, 0, 190]",Processed successfully
+290653.pdf,Failed,NA,ROI not found or OCR error
+290662.pdf,Failed,NA,ROI not found or OCR error
+290665.pdf,Success,"[369, 542, 0, 187]",Processed successfully
+290668.pdf,Success,"[369, 544, 0, 186]",Processed successfully
+290677.pdf,Success,"[368, 545, 0, 188]",Processed successfully
+290680.pdf,Failed,NA,ROI not found or OCR error
+290684.pdf,Failed,NA,ROI not found or OCR error
+290694.pdf,Success,"[389, 612, 0, 226]",Processed successfully
+290727.pdf,Success,"[443, 544, 0, 184]",Processed successfully
+290778.pdf,Success,"[370, 543, 0, 188]",Processed successfully
+290868.pdf,Success,"[374, 544, 0, 189]",Processed successfully
+290910.pdf,Failed,NA,ROI not found or OCR error
+290920.pdf,Success,"[370, 544, 0, 187]",Processed successfully
+290978.pdf,Success,"[384, 544, 0, 190]",Processed successfully
+290998.pdf,Failed,NA,ROI not found or OCR error
+291031.pdf,Success,"[368, 543, 0, 186]",Processed successfully
+291048.pdf,Failed,NA,ROI not found or OCR error
+291081.pdf,Failed,NA,ROI not found or OCR error
+291089.pdf,Success,"[382, 543, 0, 186]",Processed successfully
+291105.pdf,Success,"[368, 540, 0, 186]",Processed successfully
+291140.pdf,Failed,NA,ROI not found or OCR error
+291161.pdf,Success,"[367, 543, 0, 187]",Processed successfully
+291281.pdf,Success,"[375, 543, 0, 187]",Processed successfully
+291307.pdf,Success,"[411, 612, 0, 190]",Processed successfully
+291339.pdf,Failed,NA,ROI not found or OCR error
+291342.pdf,Success,"[367, 543, 0, 184]",Processed successfully
+291354.pdf,Failed,NA,ROI not found or OCR error
+291363.pdf,Failed,NA,ROI not found or OCR error
+291372.pdf,Failed,NA,ROI not found or OCR error
+291378.pdf,Success,"[372, 544, 0, 188]",Processed successfully
+291469.pdf,Success,"[382, 541, 0, 186]",Processed successfully
+291485.pdf,Failed,NA,ROI not found or OCR error
+291519.pdf,Success,"[398, 610, 0, 209]",Processed successfully
+291581.pdf,Success,"[368, 544, 0, 186]",Processed successfully
+291608.pdf,Failed,NA,ROI not found or OCR error
+291656.pdf,Success,"[364, 610, 0, 187]",Processed successfully
+291680.pdf,Success,"[379, 543, 0, 189]",Processed successfully
+291736.pdf,Failed,NA,ROI not found or OCR error
+291880.pdf,Failed,NA,ROI not found or OCR error
+291900.pdf,Failed,NA,ROI not found or OCR error
+291916.pdf,Success,"[439, 543, 0, 186]",Processed successfully
+291930.pdf,Success,"[381, 543, 0, 184]",Processed successfully
+291940.pdf,Failed,NA,ROI not found or OCR error
+291974.pdf,Success,"[382, 543, 0, 188]",Processed successfully
+291978.pdf,Success,"[378, 541, 0, 188]",Processed successfully
+291996.pdf,Failed,NA,ROI not found or OCR error
+292037.pdf,Failed,NA,ROI not found or OCR error
+292045.pdf,Success,"[387, 610, 0, 186]",Processed successfully
+292136.pdf,Failed,NA,ROI not found or OCR error
+292279.pdf,Success,"[370, 544, 0, 185]",Processed successfully
+292281.pdf,Success,"[414, 545, 0, 218]",Processed successfully
+292333.pdf,Failed,NA,ROI not found or OCR error
+292339.pdf,Success,"[366, 543, 0, 187]",Processed successfully
+292342.pdf,Success,"[363, 610, 0, 187]",Processed successfully
+292348.pdf,Failed,NA,ROI not found or OCR error
+292429.pdf,Success,"[367, 543, 0, 185]",Processed successfully
+292485.pdf,Success,"[362, 539, 0, 185]",Processed successfully
+292487.pdf,Success,"[421, 612, 0, 217]",Processed successfully
+292503.pdf,Failed,NA,ROI not found or OCR error
+292507.pdf,Success,"[368, 542, 0, 184]",Processed successfully
+292560.pdf,Failed,NA,ROI not found or OCR error
+292605.pdf,Failed,NA,ROI not found or OCR error
+292617.pdf,Failed,NA,ROI not found or OCR error
+292623.pdf,Failed,NA,ROI not found or OCR error
+292632.pdf,Success,"[422, 543, 0, 184]",Processed successfully
+292674.pdf,Success,"[367, 541, 0, 185]",Processed successfully
+292763.pdf,Failed,NA,ROI not found or OCR error
+292799.pdf,Success,"[403, 610, 0, 217]",Processed successfully
+292826.pdf,Failed,NA,ROI not found or OCR error
+292900.pdf,Failed,NA,ROI not found or OCR error
+292936.pdf,Success,"[371, 543, 0, 186]",Processed successfully
+292966.pdf,Success,"[380, 543, 0, 188]",Processed successfully
+293010.pdf,Success,"[377, 546, 0, 187]",Processed successfully
+293016.pdf,Success,"[384, 543, 0, 188]",Processed successfully
+293042.pdf,Failed,NA,ROI not found or OCR error
+293081.pdf,Success,"[379, 542, 0, 191]",Processed successfully
+293103.pdf,Success,"[399, 610, 0, 208]",Processed successfully
+293138.pdf,Success,"[375, 544, 0, 186]",Processed successfully
+293146.pdf,Success,"[374, 544, 0, 189]",Processed successfully
+293164.pdf,Failed,NA,ROI not found or OCR error
+293261.pdf,Failed,NA,ROI not found or OCR error
+293315.pdf,Failed,NA,ROI not found or OCR error
+293357.pdf,Success,"[367, 543, 0, 188]",Processed successfully
+293375.pdf,Failed,Unexpected error: Failed to load document (PDFium: Data format error).
+293387.pdf,Failed,NA,ROI not found or OCR error
+293403.pdf,Success,"[398, 612, 0, 190]",Processed successfully
+293425.pdf,Success,"[368, 543, 0, 188]",Processed successfully
+293427.pdf,Failed,NA,ROI not found or OCR error
+293445.pdf,Success,"[372, 544, 0, 187]",Processed successfully
+293485.pdf,Success,"[378, 542, 0, 187]",Processed successfully
+293551.pdf,Success,"[412, 610, 0, 206]",Processed successfully
+293650.pdf,Success,"[364, 543, 0, 184]",Processed successfully
+293656.pdf,Failed,NA,ROI not found or OCR error
+293674.pdf,Failed,NA,ROI not found or OCR error
+293686.pdf,Failed,NA,ROI not found or OCR error
+293703.pdf,Success,"[390, 543, 0, 185]",Processed successfully
+293706.pdf,Success,"[439, 542, 0, 185]",Processed successfully
+293712.pdf,Success,"[367, 545, 0, 183]",Processed successfully
+293754.pdf,Success,"[367, 548, 0, 217]",Processed successfully
+293760.pdf,Success,"[363, 610, 0, 185]",Processed successfully
+293838.pdf,Success,"[380, 551, 0, 185]",Processed successfully
+293856.pdf,Success,"[359, 536, 0, 185]",Processed successfully
+293932.pdf,Failed,NA,ROI not found or OCR error
+293938.pdf,Failed,NA,ROI not found or OCR error
+293944.pdf,Failed,NA,ROI not found or OCR error
+294057.pdf,Failed,NA,ROI not found or OCR error
+294060.pdf,Success,"[366, 544, 0, 187]",Processed successfully
+294087.pdf,Failed,NA,ROI not found or OCR error
+294093.pdf,Success,"[366, 544, 0, 186]",Processed successfully
+294109.pdf,Failed,NA,ROI not found or OCR error
+294127.pdf,Success,"[364, 542, 0, 184]",Processed successfully
+294199.pdf,Success,"[365, 546, 0, 218]",Processed successfully
+294207.pdf,Success,"[409, 542, 0, 193]",Processed successfully
+294240.pdf,Success,"[384, 543, 0, 186]",Processed successfully
+294433.pdf,Success,"[364, 543, 0, 188]",Processed successfully
+294454.pdf,Failed,NA,ROI not found or OCR error
+294501.pdf,Success,"[364, 543, 0, 185]",Processed successfully
+294560.pdf,Failed,NA,ROI not found or OCR error
+294575.pdf,Success,"[367, 545, 0, 186]",Processed successfully
+294581.pdf,Success,"[364, 543, 0, 184]",Processed successfully
+294605.pdf,Success,"[371, 544, 0, 186]",Processed successfully
+294611.pdf,Success,"[439, 612, 0, 188]",Processed successfully
+294690.pdf,Success,"[367, 543, 0, 184]",Processed successfully
+294760.pdf,Success,"[363, 543, 0, 187]",Processed successfully
+294948.pdf,Failed,NA,ROI not found or OCR error
+294960.pdf,Failed,NA,ROI not found or OCR error
+295013.pdf,Failed,NA,ROI not found or OCR error
+295045.pdf,Success,"[367, 546, 0, 186]",Processed successfully
+295087.pdf,Success,"[401, 612, 0, 189]",Processed successfully
+295093.pdf,Failed,NA,ROI not found or OCR error
+295121.pdf,Success,"[411, 543, 0, 183]",Processed successfully
+295181.pdf,Success,"[365, 544, 0, 185]",Processed successfully
+295185.pdf,Success,"[377, 545, 0, 184]",Processed successfully
+295255.pdf,Success,"[439, 612, 0, 189]",Processed successfully
+295309.pdf,Success,"[365, 542, 0, 186]",Processed successfully
+295342.pdf,Success,"[365, 542, 0, 183]",Processed successfully
+295378.pdf,Success,"[362, 541, 0, 185]",Processed successfully
+295400.pdf,Success,"[365, 544, 0, 186]",Processed successfully
+295438.pdf,Failed,NA,ROI not found or OCR error
+295525.pdf,Success,"[365, 544, 0, 185]",Processed successfully
+295560.pdf,Success,"[366, 544, 0, 186]",Processed successfully
+295578.pdf,Success,"[365, 605, 0, 184]",Processed successfully
+295623.pdf,Failed,NA,ROI not found or OCR error
+295641.pdf,Failed,NA,ROI not found or OCR error
+295727.pdf,Failed,NA,ROI not found or OCR error
+295733.pdf,Failed,NA,ROI not found or OCR error
+295736.pdf,Success,"[370, 541, 0, 187]",Processed successfully
+295742.pdf,Success,"[365, 544, 0, 185]",Processed successfully
+295775.pdf,Success,"[373, 544, 0, 186]",Processed successfully
+295797.pdf,Failed,NA,ROI not found or OCR error
+295906.pdf,Failed,NA,ROI not found or OCR error
+295926.pdf,Failed,NA,ROI not found or OCR error
+295938.pdf,Success,"[364, 542, 0, 185]",Processed successfully
+295962.pdf,Success,"[365, 543, 0, 184]",Processed successfully
+295984.pdf,Failed,NA,ROI not found or OCR error
+296063.pdf,Success,"[365, 543, 0, 186]",Processed successfully
+296093.pdf,Failed,NA,ROI not found or OCR error
+296138.pdf,Failed,NA,ROI not found or OCR error
+296185.pdf,Failed,NA,ROI not found or OCR error
+296207.pdf,Success,"[367, 547, 0, 185]",Processed successfully
+296249.pdf,Failed,NA,ROI not found or OCR error
+296325.pdf,Success,"[385, 547, 0, 184]",Processed successfully
+296360.pdf,Failed,NA,ROI not found or OCR error
+296393.pdf,Failed,NA,ROI not found or OCR error
+296395.pdf,Failed,NA,ROI not found or OCR error
+296431.pdf,Failed,NA,ROI not found or OCR error
+296569.pdf,Success,"[411, 612, 0, 189]",Processed successfully
+296587.pdf,Failed,NA,ROI not found or OCR error
+296589.pdf,Failed,NA,ROI not found or OCR error
+296593.pdf,Success,"[364, 542, 0, 186]",Processed successfully
+296599.pdf,Success,"[364, 542, 0, 187]",Processed successfully
+296602.pdf,Failed,NA,ROI not found or OCR error
+296620.pdf,Success,"[364, 541, 0, 184]",Processed successfully
+296718.pdf,Success,"[365, 543, 0, 187]",Processed successfully
+296742.pdf,Failed,NA,ROI not found or OCR error
+296745.pdf,Failed,NA,ROI not found or OCR error
+296757.pdf,Success,"[443, 544, 0, 182]",Processed successfully
+296763.pdf,Success,"[364, 542, 0, 185]",Processed successfully
+296811.pdf,Failed,NA,ROI not found or OCR error
+296814.pdf,Success,"[441, 544, 0, 187]",Processed successfully
+296820.pdf,Success,"[378, 542, 0, 188]",Processed successfully
+296823.pdf,Success,"[382, 545, 0, 184]",Processed successfully
+296829.pdf,Failed,NA,ROI not found or OCR error
+296859.pdf,Failed,NA,ROI not found or OCR error
+296862.pdf,Failed,NA,ROI not found or OCR error
+296880.pdf,Failed,NA,ROI not found or OCR error
+296896.pdf,Success,"[367, 548, 0, 185]",Processed successfully
+296912.pdf,Failed,NA,ROI not found or OCR error
+296936.pdf,Failed,NA,ROI not found or OCR error
+296944.pdf,Success,"[396, 612, 0, 198]",Processed successfully
+296946.pdf,Success,"[376, 544, 0, 185]",Processed successfully
+296954.pdf,Success,"[418, 612, 0, 187]",Processed successfully
+296962.pdf,Failed,NA,ROI not found or OCR error
+296980.pdf,Success,"[364, 542, 0, 187]",Processed successfully
+297066.pdf,Success,"[364, 542, 0, 187]",Processed successfully
+297093.pdf,Success,"[362, 543, 0, 184]",Processed successfully
+297134.pdf,Success,"[365, 542, 0, 185]",Processed successfully
+297193.pdf,Failed,NA,ROI not found or OCR error
+297215.pdf,Failed,NA,ROI not found or OCR error
+297227.pdf,Failed,NA,ROI not found or OCR error
+297252.pdf,Success,"[368, 547, 0, 187]",Processed successfully
+297301.pdf,Failed,NA,ROI not found or OCR error
+297303.pdf,Failed,NA,ROI not found or OCR error
+297345.pdf,Failed,NA,ROI not found or OCR error
+297395.pdf,Success,"[365, 544, 0, 185]",Processed successfully
+297417.pdf,Failed,NA,ROI not found or OCR error
+297439.pdf,Failed,NA,ROI not found or OCR error
+297485.pdf,Success,"[405, 547, 0, 183]",Processed successfully
+297511.pdf,Success,"[365, 543, 0, 187]",Processed successfully
+297515.pdf,Success,"[402, 612, 0, 187]",Processed successfully
+297529.pdf,Success,"[362, 539, 0, 187]",Processed successfully
+297591.pdf,Failed,NA,ROI not found or OCR error
+297644.pdf,Failed,NA,ROI not found or OCR error
+297688.pdf,Success,"[368, 551, 0, 186]",Processed successfully
+297706.pdf,Success,"[427, 612, 0, 187]",Processed successfully
+297736.pdf,Failed,NA,ROI not found or OCR error
+297799.pdf,Success,"[364, 544, 0, 186]",Processed successfully
+297859.pdf,Success,"[426, 544, 0, 185]",Processed successfully
+297910.pdf,Failed,NA,ROI not found or OCR error
+297918.pdf,Success,"[375, 544, 0, 184]",Processed successfully
+297926.pdf,Failed,NA,ROI not found or OCR error
+297956.pdf,Success,"[361, 539, 0, 186]",Processed successfully
+297982.pdf,Failed,NA,ROI not found or OCR error
+298004.pdf,Success,"[365, 544, 0, 186]",Processed successfully
+298006.pdf,Failed,NA,ROI not found or OCR error
+298060.pdf,Failed,NA,ROI not found or OCR error
+298075.pdf,Success,"[373, 544, 0, 183]",Processed successfully
+298083.pdf,Failed,NA,ROI not found or OCR error
+298105.pdf,Success,"[391, 545, 0, 184]",Processed successfully
+298127.pdf,Failed,NA,ROI not found or OCR error
+298152.pdf,Success,"[364, 547, 0, 185]",Processed successfully
+298161.pdf,Failed,NA,ROI not found or OCR error
+298164.pdf,Success,"[366, 544, 0, 187]",Processed successfully
+298179.pdf,Failed,NA,ROI not found or OCR error
+298203.pdf,Failed,NA,ROI not found or OCR error
+298209.pdf,Success,"[399, 610, 0, 187]",Processed successfully
+298249.pdf,Failed,NA,ROI not found or OCR error
+298252.pdf,Success,"[482, 612, 0, 210]",Processed successfully
+298283.pdf,Failed,NA,ROI not found or OCR error
+298307.pdf,Success,"[364, 544, 0, 185]",Processed successfully
+298387.pdf,Success,"[364, 543, 0, 187]",Processed successfully
+298391.pdf,Failed,NA,ROI not found or OCR error
+298393.pdf,Success,"[386, 544, 0, 186]",Processed successfully
+298487.pdf,Success,"[365, 545, 0, 184]",Processed successfully
+298509.pdf,Failed,NA,ROI not found or OCR error
+298515.pdf,Failed,NA,ROI not found or OCR error
+298589.pdf,Failed,NA,ROI not found or OCR error
+298656.pdf,Failed,NA,ROI not found or OCR error
+298692.pdf,Failed,NA,ROI not found or OCR error
+298700.pdf,Success,"[366, 545, 0, 185]",Processed successfully
+298703.pdf,Failed,NA,ROI not found or OCR error
+298727.pdf,Success,"[366, 545, 0, 184]",Processed successfully
+298757.pdf,Failed,NA,ROI not found or OCR error
+298799.pdf,Success,"[362, 543, 0, 186]",Processed successfully
+298814.pdf,Success,"[365, 544, 0, 185]",Processed successfully
+298832.pdf,Success,"[365, 544, 0, 185]",Processed successfully
+298862.pdf,Success,"[365, 544, 0, 188]",Processed successfully
+298871.pdf,Failed,NA,ROI not found or OCR error
+298912.pdf,Failed,NA,ROI not found or OCR error
+298960.pdf,Success,"[364, 546, 0, 186]",Processed successfully
+298974.pdf,Failed,NA,ROI not found or OCR error
+298982.pdf,Success,"[447, 612, 0, 190]",Processed successfully
+299031.pdf,Failed,NA,ROI not found or OCR error
+299083.pdf,Success,"[369, 549, 0, 183]",Processed successfully
+299127.pdf,Success,"[366, 545, 0, 184]",Processed successfully
+299161.pdf,Failed,NA,ROI not found or OCR error
+299221.pdf,Success,"[364, 543, 0, 184]",Processed successfully
+299240.pdf,Failed,NA,ROI not found or OCR error
+299252.pdf,Failed,NA,ROI not found or OCR error
+299261.pdf,Success,"[366, 545, 0, 144]",Processed successfully
+299321.pdf,Success,"[360, 542, 0, 185]",Processed successfully
+299403.pdf,Success,"[362, 540, 0, 192]",Processed successfully
+299409.pdf,Failed,NA,ROI not found or OCR error
+299413.pdf,Success,"[361, 541, 0, 188]",Processed successfully
+299460.pdf,Success,"[371, 545, 0, 187]",Processed successfully
+299581.pdf,Failed,NA,ROI not found or OCR error
+299583.pdf,Success,"[373, 542, 0, 181]",Processed successfully
+299591.pdf,Failed,NA,ROI not found or OCR error
+299608.pdf,Failed,NA,ROI not found or OCR error
+299644.pdf,Failed,NA,ROI not found or OCR error
+299692.pdf,Success,"[365, 544, 0, 186]",Processed successfully
+299700.pdf,Failed,NA,ROI not found or OCR error
+299789.pdf,Failed,NA,ROI not found or OCR error
+299880.pdf,Failed,NA,ROI not found or OCR error
+299894.pdf,Success,"[368, 547, 0, 191]",Processed successfully
+299922.pdf,Success,"[386, 549, 0, 180]",Processed successfully
+299928.pdf,Success,"[401, 612, 0, 196]",Processed successfully
+299932.pdf,Success,"[367, 550, 0, 186]",Processed successfully
+299958.pdf,Success,"[366, 546, 0, 215]",Processed successfully
+299990.pdf,Success,"[365, 545, 0, 185]",Processed successfully
+299998.pdf,Success,"[365, 544, 0, 190]",Processed successfully
+300013.pdf,Success,"[366, 545, 0, 183]",Processed successfully
+300028.pdf,Failed,"Unexpected error: Unable to allocate 26.1 MiB for an array with shape (6, 172, 6625) and data type float32"
+300039.pdf,Failed,Unexpected error: could not create a primitive
+300063.pdf,Failed,Unexpected error: could not create a primitive
+300124.pdf,Failed,Unexpected error: could not create a primitive
+300140.pdf,Failed,Unexpected error: could not create a primitive
+300164.pdf,Failed,Unexpected error: could not create a primitive
+300267.pdf,Failed,Unexpected error: could not create a primitive
+300285.pdf,Failed,"Unexpected error: Unable to allocate 30.3 MiB for an array with shape (6, 200, 6625) and data type float32"
+300303.pdf,Failed,Unexpected error: could not create a primitive
+300305.pdf,Failed,Unexpected error: could not create a primitive
+300313.pdf,Success,"[363, 543, 0, 186]",Processed successfully
+300335.pdf,Failed,"Unexpected error: Unable to allocate 27.1 MiB for an array with shape (6, 179, 6625) and data type float32"
+300363.pdf,Failed,Unexpected error: could not create a primitive
+300429.pdf,Failed,Unexpected error: could not create a primitive
+300466.pdf,Failed,Unexpected error: could not create a primitive
+300513.pdf,Failed,Unexpected error: could not create a primitive
+300585.pdf,Failed,Unexpected error: could not create a primitive
+300593.pdf,Failed,Unexpected error: could not create a primitive
+300614.pdf,Failed,Unexpected error: could not create a primitive
+300668.pdf,Failed,Unexpected error: could not create a primitive
+300696.pdf,Failed,Unexpected error: could not create a primitive
+300797.pdf,Failed,Unexpected error: could not create a primitive
+300799.pdf,Failed,Unexpected error: could not create a primitive
+300835.pdf,Failed,Unexpected error: could not create a primitive
+300847.pdf,Failed,Unexpected error: could not create a primitive
+300882.pdf,Failed,Unexpected error: could not create a primitive
+300908.pdf,Failed,Unexpected error: could not create a primitive
+300962.pdf,Failed,Unexpected error: could not create a primitive
+300998.pdf,Failed,Unexpected error: could not create a primitive
+301025.pdf,Failed,Unexpected error: could not create a primitive
+301031.pdf,Failed,Unexpected error: could not create a primitive
+301039.pdf,Failed,Unexpected error: could not create a primitive
+301081.pdf,Failed,Unexpected error: could not create a primitive
+301121.pdf,Failed,Unexpected error: could not create a primitive
+301146.pdf,Failed,Unexpected error: could not create a primitive
+301164.pdf,Failed,Unexpected error: could not create a primitive
+301167.pdf,Failed,Unexpected error: could not create a primitive
+301176.pdf,Failed,Unexpected error: could not create a primitive
+301207.pdf,Failed,Unexpected error: could not create a primitive
+301215.pdf,Failed,Unexpected error: could not create a primitive
+301227.pdf,Failed,Unexpected error: could not create a primitive
+301230.pdf,Failed,Unexpected error: could not create a primitive
+301232.pdf,Failed,Unexpected error: could not create a primitive
+301243.pdf,Failed,Unexpected error: could not create a primitive
+301264.pdf,Failed,"Unexpected error: Unable to allocate 5.57 MiB for an array with shape (800, 608, 3) and data type float32"
+301270.pdf,Failed,"Unexpected error: Unable to allocate 5.57 MiB for an array with shape (800, 608, 3) and data type float32"
+301319.pdf,Failed,"Unexpected error: Unable to allocate 1.79 MiB for an array with shape (288, 544, 3) and data type float32"
+301393.pdf,Failed,"Unexpected error: Unable to allocate 5.57 MiB for an array with shape (800, 608, 3) and data type float32"
+301405.pdf,Failed,Unexpected error: could not create a primitive
+301451.pdf,Failed,Unexpected error: could not create a primitive
+301503.pdf,Failed,"Unexpected error: Unable to allocate 5.57 MiB for an array with shape (800, 608, 3) and data type float32"
+301507.pdf,Failed,"Unexpected error: Unable to allocate 5.57 MiB for an array with shape (800, 608, 3) and data type float32"
+301533.pdf,Failed,Unexpected error: could not create a primitive
+301694.pdf,Failed,Unexpected error: could not create a primitive
+301730.pdf,Failed,Unexpected error: could not create a primitive
+301748.pdf,Failed,Unexpected error: could not create a primitive
+301754.pdf,Failed,Unexpected error: could not create a primitive
+301783.pdf,Failed,Unexpected error: could not create a primitive
+301791.pdf,Failed,Unexpected error: could not create a primitive
+301930.pdf,Failed,Unexpected error: could not create a primitive
+301960.pdf,Failed,Unexpected error: could not create a primitive
+301994.pdf,Failed,"Unexpected error: Unable to allocate 26.1 MiB for an array with shape (6, 172, 6625) and data type float32"
+302025.pdf,Failed,"Unexpected error: Unable to allocate 18.7 MiB for an array with shape (4, 185, 6625) and data type float32"
+302051.pdf,Failed,Unexpected error: could not create a primitive
+302091.pdf,Failed,Unexpected error: could not create a primitive
+302130.pdf,Failed,Unexpected error: could not create a primitive
+302143.pdf,Failed,Unexpected error: could not create a primitive
+302170.pdf,Failed,Unexpected error: could not create a primitive

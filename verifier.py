@@ -8,8 +8,6 @@ from paddleocr import PaddleOCR
 import pypdfium2 as pdfium
 import pandas as pd
 
-from pdfToImg import extract_sign
-
 # Define the custom cosine similarity layer
 class CosineSimilarityLayer(tf.keras.layers.Layer):
     def __init__(self, **kwargs):
