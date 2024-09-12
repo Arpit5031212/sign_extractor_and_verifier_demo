@@ -99,43 +99,54 @@ def preProcessImage(image, target_size=(224, 224)):
 @st.cache_resource
 def load_model():    
     st.write("model is loading")
-    return tf.keras.models.load_model("C:/Users/Arpit/Downloads/finalSignatureArebic23siamese_model2.keras", custom_objects={'CosineSimilarityLayer': CosineSimilarityLayer})
+    return tf.keras.models.load_model("C:/Users/Prateek/Downloads/finalSignatureArebic23siamese_model2.keras", custom_objects={'CosineSimilarityLayer': CosineSimilarityLayer})
 
-def compare_with_user_images(user_id, image, model, base_path="D:/final_extraction_model/output_folder"):
+def compare_with_user_images(user_id, image, model, base_path="C:/Users/Prateek/Downloads/output_folder/output_folder"):
     
     user_folder = os.path.join(base_path, f"{user_id}")
     print(user_folder)
     # Check if the folder exists
     print(os.path.isdir(user_folder))
     if not os.path.isdir(user_folder):
-        st.write(f"No folder found for user ID {user_id}.")
+        st.write(f"No folder found for Pensioner ID {user_id}.")
         # Ask the user if they want to create a new folder
-        create_new_folder = st.radio(f"Do you want to create a new folder for user ID {user_id}?", ('No', 'Yes'))
+        create_new_folder = st.radio(f"Do you want to create a new folder for Pensioner ID {user_id}?", ('No', 'Yes'))
         
         if create_new_folder == 'Yes':
             os.makedirs(user_folder)
-            st.write(f"New folder created for user ID {user_id}.")
+            st.write(f"New folder created for Pensioner ID {user_id}.")
             # Save the cropped image in the newly created folder
             cropped_image_path = os.path.join(user_folder, f"{user_id}_signature.jpg")
             image.save(cropped_image_path)
             st.write(f"Signature saved at: {cropped_image_path}")
         else:
-            st.write("No new folder created. Please enter a valid user ID.")
+            st.write("No new folder created. Please enter a valid Pensioner ID.")
         return
     
     img2 = preProcessImage(image)
     img2 = img2.reshape((1, 224, 224, 1))
+
+    # Define the number of columns you want (for example, 2 columns)
+    num_columns = 3
+    img_list = os.listdir(user_folder)
+# Create columns
+    cols = st.columns(num_columns)
     
-    for img_name in os.listdir(user_folder):
+    for index, img_name in enumerate(img_list):
         img_path = os.path.join(user_folder, img_name)
         base_image = Image.open(img_path)
         img1 = preProcessImage(base_image)
         img1 = img1.reshape((1, 224, 224, 1))
         Similarity_scores = []
+        
         prediction = model.predict([img1, img2])
         similarity_score = prediction[0][0]
         Similarity_scores.append(similarity_score)
         
+        # Display image in corresponding column
+        col_index = index % num_columns
+        with cols[col_index]:
+            st.image(img_path , caption="Base Image")    
     if Similarity_scores:
         max_score = max(Similarity_scores)
         min_score = min(Similarity_scores)
@@ -148,12 +159,12 @@ def compare_with_user_images(user_id, image, model, base_path="D:/final_extracti
 
 model = load_model()
 # Set up the page title and header
-st.title("Detectron2 Image Detection")
+st.title("Sign Detection Model")
 st.header("Upload a PDF document to detect objects")
 
 # Upload a PDF file
 uploaded_file = st.file_uploader("Choose the document...", type=["pdf"])
-empty_sign = "C:/Users/Arpit/Downloads/SPRN-ITU-0024050719130-1_rotated (1).pdf"
+empty_sign = "C:/Users/Prateek/Downloads/SPRN-ITU-0024050719130-1_rotated (1).pdf"
 if uploaded_file is  None:
     st.write("Please upload the PDF document.")
 if uploaded_file is not None:
@@ -179,10 +190,11 @@ if uploaded_file is not None:
         
         user_id = cleaned_reference.split('/')[0]  # Extract '460972'
         st.write(f"Detected Reference Number: {reference_number}")
-        st.write(f"Extracted User ID: {user_id}")
+        # Pre-fill the user_id in a text input field for editing
+        user_id = st.text_input("Detected Pensioner ID (edit if needed):", value=user_id)
     else:
         st.write("Unable to detect a valid reference number.")
-        user_id = st.text_input("Please enter the user ID manually:")
+        user_id = st.text_input("Please enter the Pensioner ID manually:")
     
     if pensioner_sign_area is not None:
         
