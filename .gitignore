@@ -2,3 +2,7 @@
 detectron2
 *.pth
 __pycache__
+test.ipynb
+output_folder
+test.ipynb
+stats.ipynb

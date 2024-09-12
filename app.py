@@ -4,10 +4,46 @@ import numpy as np
 import io
 from signature_extractor import *
 from paddleocr import PaddleOCR
+import re
+
+os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
+
+
 app = Flask(__name__)
 detector = Detector()
-os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 ocr = PaddleOCR(det_model_dir='C:/Users/Arpit/Downloads/en_PP-OCRv3_det_distill_train', rec_model_dir='C:/Users/Arpit/Downloads/en_PP-OCRv3_rec_train', use_gpu=False)
+
+
+def merge_signature_boxes(signature_boxes):
+    def is_inside(box1, box2):
+        return (box1[0] >= box2[0] and box1[2] <= box2[2] and
+                box1[1] >= box2[1] and box1[3] <= box2[3])
+
+    def merge_boxes(boxes):
+        min_x = min(box[0] for box in boxes)
+        min_y = min(box[1] for box in boxes)
+        max_x = max(box[2] for box in boxes)
+        max_y = max(box[3] for box in boxes)
+        return [min_x, min_y, max_x, max_y]
+
+    # Process the boxes
+    if len(signature_boxes) > 1:
+        # Check if one box is inside the other
+        outside_box = None
+        for i in range(len(signature_boxes)):
+            for j in range(i+1, len(signature_boxes)):
+                if is_inside(signature_boxes[i], signature_boxes[j]):
+                    outside_box = signature_boxes[j]
+                elif is_inside(signature_boxes[j], signature_boxes[i]):
+                    outside_box = signature_boxes[i]
+
+        # If no box is inside another, merge the boxes on the same horizontal axis
+        if outside_box is None:
+            outside_box = merge_boxes(signature_boxes)
+    else:
+        outside_box = signature_boxes[0]
+
+    return outside_box
 
 def apply_final_processing(image):
     # Apply additional enhancement to the selected image
@@ -23,40 +59,112 @@ def apply_final_processing(image):
     
     return image
 
-def get_target_text(image, target_text):
+def get_target_text(image):
+    fallback = False
+    target_texts_1 = [
+        'affixed',  # Correct spelling
+        'affix',    # Base word
+        'affixe',   # Common misspelling or partial word
+        'afixed',   # Common typo (missing 'f')
+        'affxd',    # Another variant that could arise from OCR errors
+    ]
+    
+    target_texts_2 = [
+        '(Signature of Pensioner)',
+        'Signature of Pensioner',
+        'Signature of Pensionr',
+        '(Signature of Penager)',
+        'Signature of Pensiner',
+        'Signature of Pesoner',
+        'Signature of Pesonr',
+    ]
+    
+    target_texts_3 ="certify"
+
     result = ocr.ocr(image, cls=False)
+    print(result)
     target_text_found = False
     bbox_coords = None
-    cropped_image = None
+    bbox_coords2 = None
+    
+    target_text_pattern_1 = re.compile(r'({})'.format('|'.join(target_texts_1)), re.IGNORECASE)
+    target_text_pattern_2 = re.compile(r'({})'.format('|'.join(target_texts_2)), re.IGNORECASE)
+    
     for line in result:
         for word_info in line:
             box = word_info[0]
             text = word_info[1][0]
             text = str(text)
-            if target_text in text:
+            # Use regex to search for any of the target texts
+            if re.search(target_text_pattern_1, text):
                 bbox_coords = np.array(box, dtype=np.int32)
                 target_text_found = True
                 break
             if target_text_found:
                 break
+            
+    for line in result:
+        for word_info in line:
+            box = word_info[0]
+            text = word_info[1][0]
+            text = str(text)
+            # Use regex to search for any of the target texts
+            if re.search(target_text_pattern_2, text):
+                bbox_coords = np.array(box, dtype=np.int32)
+                target_text_found = True
+                fallback = True
+                break
+            if target_text_found:
+                break
+    
+    for line in result:
+        for word_info in line:
+            box = word_info[0]  # Bounding box coordinates
+            text = word_info[1][0]  # Extracted text
+            # Ensure text is a string
+            text = str(text)
+            if target_texts_3 in text:
+                bbox_coords2 = np.array(box, dtype=np.int32)
+                target_text_found = True
+                break
+        if target_text_found:
+            break
+            
+    # if bbox_coords is not None:
+    #     # Crop the bounding box area from the image
+    #     xmin = int(min(p[0] for p in bbox_coords)) + 83
+    #     xmax = int(max(p[0] for p in bbox_coords)) + 0
+    #     ymin = int(min(p[1] for p in bbox_coords)) - 20
+    #     ymax = int(max(p[1] for p in bbox_coords)) - 20
 
-            if bbox_coords is not None:
-                # Crop the bounding box area from the image
-                xmin = int(min(p[0] for p in bbox_coords)) + 83
-                xmax = int(max(p[0] for p in bbox_coords)) + 0
-                ymin = int(min(p[1] for p in bbox_coords)) - 20
-                ymax = int(max(p[1] for p in bbox_coords)) - 20
-
-                xmax += 70
-                ymax += 40
-    return bbox_coords
+    #     xmax += 70
+    #     ymax += 40
+        
+    if bbox_coords2 is not None:
+        # Crop the bounding box area from the image
+         xmin = int(min(p[0] for p in bbox_coords2)) + 83
+         xmax = int(max(p[0] for p in bbox_coords2)) + 10
+         ymin = int(min(p[1] for p in bbox_coords2)) - 20
+         ymax = int(max(p[1] for p in bbox_coords2)) - 20
+         xmax += 70
+         ymax += 40
+    
+    cropped_image = image[ymin:ymax, xmin:xmax]
+    cropped_result = ocr.ocr(cropped_image, cls=False)
+    # Initialize variables
+    reference_number = ""
+    # Check index ranges and extract data if available
+    if cropped_result:
+        if len(cropped_result) > 0:
+            if cropped_result[0] is not None and len(cropped_result[0]) > 0:
+                reference_number = cropped_result[0][0][1][0]
+    return bbox_coords, reference_number, fallback
 
 def preProcessImage(image, target_size=(224, 224)):
     
     image = np.array(image)
     # Apply Gaussian blur to reduce noise
     image = cv2.GaussianBlur(image, (5, 5), 0)
-    
     # Apply adaptive thresholding to enhance clarity and make background white
     image = cv2.adaptiveThreshold(
         image, 
@@ -77,44 +185,41 @@ def preProcessImage(image, target_size=(224, 224)):
     image = image / 255.0
     
     return image
-    
-def extract_signature(image, target_text):
-        result = ocr.ocr(image, cls=False)
-        target_text_found = False
-        bbox_coords = None
-        cropped_image = None
-        for line in result:
-            for word_info in line:
-                box = word_info[0]  # Bounding box coordinates
-                text = word_info[1][0]  # Extracted text
-                text = str(text)
-                if target_text in text:
-                    bbox_coords = np.array(box, dtype=np.int32)
-                    target_text_found = True
-                    break
-            if target_text_found:
-                break
-        if bbox_coords is not None:
-            xmin = int(min(p[0] for p in bbox_coords))
-            xmax = int(max(p[0] for p in bbox_coords))
-            ymin = int(min(p[1] for p in bbox_coords))
-            ymax = int(max(p[1] for p in bbox_coords))
-            xmax += 70
-            ymax += 40
-            cropped_image = image[ymin:ymax, xmin:xmax]
-        return cropped_image, bbox_coords
 
 def get_pensioner_sign_area(image):
-    affixed_bbox = get_target_text(image, "affixed")
-        
-    xmin = affixed_bbox[2][0]
-    xmax = image.shape[1]
-    ymin = 0
-    ymax = affixed_bbox[2][1] + 50
+    affixed_bbox, reference_number, fallback = get_target_text(image)
     
-    roi = [xmin, xmax, ymin, ymax]
-    cropped = image[ymin:ymax, xmin:xmax]
-    return cropped, roi
+    xmin = None
+    xmax = None
+    ymin = None
+    ymax = None
+    
+    if affixed_bbox is not None:
+        if fallback is False:
+            xmin = affixed_bbox[2][0]
+            xmax = image.shape[1]
+            ymin = 0
+            ymax = affixed_bbox[2][1] + 30
+        else:
+            xmin = affixed_bbox[0][0] - 50
+            xmax = image.shape[1]
+            ymin = 0
+            ymax = affixed_bbox[2][1]
+
+        # Create a mask with the same shape as the image, initially all black (0)
+        mask = np.zeros_like(image, dtype=np.uint8)
+        
+        # Fill the ROI area in the mask with white (255 for grayscale, or 1 for binary mask)
+        mask[ymin:ymax, xmin:xmax] = 255
+        
+        # Apply the mask to the original image (bitwise AND to keep only the ROI)
+        masked_image = cv2.bitwise_and(image, mask)
+            
+        roi = [xmin, xmax, ymin, ymax]
+        # cropped = image[ymin:ymax, xmin:xmax]
+        return masked_image, roi, reference_number
+    else:
+        return None, [], None
 
 @app.route('/predict', methods=['POST'])
 def predict():
@@ -126,21 +231,17 @@ def predict():
     # image = preProcessImage(image)
     # image = apply_final_processing(image)
     image = np.array(image)
-    print("image shape: ", image.shape)
     outputs = detector.onImage(image)
     viz = Visualizer(image[:,:,::-1], metadata = metadata, instance_mode = ColorMode.IMAGE_BW)
     output = viz.draw_instance_predictions(outputs["instances"].to("cpu"))
-    # Process the outputs and format as needed
-    # instances = outputs["instances"].to("cpu")
+    
     pred_boxes = outputs['instances'].pred_boxes.tensor.tolist()
     pred_classes = outputs['instances'].pred_classes.numpy()
+    
+    merge_boxes = merge_signature_boxes(pred_boxes)
     results = {
-        "boxes": pred_boxes,
+        "boxes": merge_boxes,
         "classes": pred_classes.tolist(),
-        
-        # "cropped_box": bbox,
-        # "roi": roi
-        # Add more fields as needed
     }
     return jsonify(results)
 if __name__ == '__main__':
