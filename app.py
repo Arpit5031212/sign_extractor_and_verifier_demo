@@ -82,7 +82,6 @@ def get_target_text(image):
     target_texts_3 ="certify"
 
     result = ocr.ocr(image, cls=False)
-    print(result)
     target_text_found = False
     bbox_coords = None
     bbox_coords2 = None
@@ -129,25 +128,18 @@ def get_target_text(image):
                 break
         if target_text_found:
             break
-            
-    # if bbox_coords is not None:
-    #     # Crop the bounding box area from the image
-    #     xmin = int(min(p[0] for p in bbox_coords)) + 83
-    #     xmax = int(max(p[0] for p in bbox_coords)) + 0
-    #     ymin = int(min(p[1] for p in bbox_coords)) - 20
-    #     ymax = int(max(p[1] for p in bbox_coords)) - 20
-
-    #     xmax += 70
-    #     ymax += 40
-        
+    
+    pensioner_number_bbox = None
     if bbox_coords2 is not None:
         # Crop the bounding box area from the image
-         xmin = int(min(p[0] for p in bbox_coords2)) + 83
-         xmax = int(max(p[0] for p in bbox_coords2)) + 10
-         ymin = int(min(p[1] for p in bbox_coords2)) - 20
-         ymax = int(max(p[1] for p in bbox_coords2)) - 20
-         xmax += 70
-         ymax += 40
+        xmin = int(min(p[0] for p in bbox_coords2)) + 83
+        xmax = int(max(p[0] for p in bbox_coords2)) + 10
+        ymin = int(min(p[1] for p in bbox_coords2)) - 20
+        ymax = int(max(p[1] for p in bbox_coords2)) - 20
+        xmax += 70
+        ymax += 40
+         
+        pensioner_number_bbox = [xmin, ymin, xmax, ymax - 40]
     
     cropped_image = image[ymin:ymax, xmin:xmax]
     cropped_result = ocr.ocr(cropped_image, cls=False)
@@ -158,7 +150,9 @@ def get_target_text(image):
         if len(cropped_result) > 0:
             if cropped_result[0] is not None and len(cropped_result[0]) > 0:
                 reference_number = cropped_result[0][0][1][0]
-    return bbox_coords, reference_number, fallback
+                
+    
+    return bbox_coords, reference_number, pensioner_number_bbox, fallback
 
 def preProcessImage(image, target_size=(224, 224)):
     
@@ -187,7 +181,15 @@ def preProcessImage(image, target_size=(224, 224)):
     return image
 
 def get_pensioner_sign_area(image):
-    affixed_bbox, reference_number, fallback = get_target_text(image)
+    
+    affixed_bbox = None
+    reference_number = None
+    reference_number_bbox = None
+    fallback = False
+    roi = None
+    masked_image = None
+    
+    affixed_bbox, reference_number, reference_number_bbox, fallback = get_target_text(image)
     
     xmin = None
     xmax = None
@@ -216,10 +218,10 @@ def get_pensioner_sign_area(image):
         masked_image = cv2.bitwise_and(image, mask)
             
         roi = [xmin, xmax, ymin, ymax]
-        # cropped = image[ymin:ymax, xmin:xmax]
-        return masked_image, roi, reference_number
-    else:
-        return None, [], None
+    
+    return masked_image, roi, reference_number, reference_number_bbox
+
+    
 
 @app.route('/predict', methods=['POST'])
 def predict():

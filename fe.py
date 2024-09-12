@@ -99,28 +99,26 @@ def preProcessImage(image, target_size=(224, 224)):
 @st.cache_resource
 def load_model():    
     st.write("model is loading")
-    return tf.keras.models.load_model("C:/Users/Prateek/Downloads/finalSignatureArebic23siamese_model2.keras", custom_objects={'CosineSimilarityLayer': CosineSimilarityLayer})
+    return tf.keras.models.load_model("C:/Users/Arpit/Downloads/finalSignatureArebic23siamese_model2.keras", custom_objects={'CosineSimilarityLayer': CosineSimilarityLayer})
 
-def compare_with_user_images(user_id, image, model, base_path="C:/Users/Prateek/Downloads/output_folder/output_folder"):
+def compare_with_user_images(user_id, image, model, base_path="D:/final_extraction_model/output_folder"):
     
     user_folder = os.path.join(base_path, f"{user_id}")
-    print(user_folder)
     # Check if the folder exists
-    print(os.path.isdir(user_folder))
     if not os.path.isdir(user_folder):
-        st.write(f"No folder found for Pensioner ID {user_id}.")
+        st.write(f"No signature found for Pensioner ID {user_id}.")
         # Ask the user if they want to create a new folder
-        create_new_folder = st.radio(f"Do you want to create a new folder for Pensioner ID {user_id}?", ('No', 'Yes'))
+        create_new_folder = st.radio(f"Do you want to save a new signature for Pensioner ID {user_id}?", ('No', 'Yes'))
         
         if create_new_folder == 'Yes':
             os.makedirs(user_folder)
-            st.write(f"New folder created for Pensioner ID {user_id}.")
+            st.write(f"New signature saved for Pensioner ID {user_id}.")
             # Save the cropped image in the newly created folder
             cropped_image_path = os.path.join(user_folder, f"{user_id}_signature.jpg")
             image.save(cropped_image_path)
             st.write(f"Signature saved at: {cropped_image_path}")
         else:
-            st.write("No new folder created. Please enter a valid Pensioner ID.")
+            st.write("No signature saved.")
         return
     
     img2 = preProcessImage(image)
@@ -164,7 +162,7 @@ st.header("Upload a PDF document to detect objects")
 
 # Upload a PDF file
 uploaded_file = st.file_uploader("Choose the document...", type=["pdf"])
-empty_sign = "C:/Users/Prateek/Downloads/SPRN-ITU-0024050719130-1_rotated (1).pdf"
+empty_sign = "C:/Users/Arpit/Downloads/SPRN-ITU-0024050719130-1_rotated (1).pdf"
 if uploaded_file is  None:
     st.write("Please upload the PDF document.")
 if uploaded_file is not None:
@@ -174,9 +172,9 @@ if uploaded_file is not None:
     st.image(image, caption="Uploaded Image.", use_column_width=True)
     st.write("")
     st.write("Detecting...")
-    
+    original_image = image
     image = np.array(image)
-    pensioner_sign_area, roi, reference_number = get_pensioner_sign_area(image)
+    pensioner_sign_area, roi, reference_number, reference_number_bbox = get_pensioner_sign_area(image)
     
     if reference_number and reference_number.startswith("REF"):
         
@@ -211,31 +209,32 @@ if uploaded_file is not None:
             boxes = results["boxes"]
             classes = results["classes"]
             extracted_signature = None
-                
+
             image_with_boxes, cropped_image = draw_boxes_and_crop(image, boxes, classes)
-
             # Display the processed image with bounding boxes
-            st.image(image_with_boxes, caption="Processed Image with Detections.", use_column_width=True)
-
+            display_image_with_boxes = None
+            if boxes is not None:
+                display_image_with_boxes = draw_boxes(original_image, boxes, classes)
+            if reference_number_bbox is not None:
+                display_image_with_boxes = draw_boxes(display_image_with_boxes, reference_number_bbox, classes)
+            st.image(display_image_with_boxes, caption="Detected pensioner number and signature")
             extracted_signature = apply_final_processing(cropped_image)
             
-            st.image(extracted_signature, caption="Selected Cropped Region", use_column_width=True)
+            st.image(extracted_signature, caption="pensioner's signature", use_column_width=True)
 
             if user_id:
                 compare_with_user_images(user_id, extracted_signature, model)
         else:
             st.write("Error in detecting the signature. Please crop the reason containing signature.")
             # Get a cropped image from the frontend
-            cropped_img = st_cropper(image, realtime_update=True, box_color='#000FFF', aspect_ratio=None)
-            print(cropped_img)
+            cropped_img = st_cropper(original_image, realtime_update=True, box_color='#000FFF', aspect_ratio=None)
             st.image(cropped_img, caption='cropped by user')
             if user_id:
                 compare_with_user_images(user_id, cropped_img, model)
     else:
-        st.write("Error in processing the image. Please Crop the image for further processing.")
-        cropped_img = st_cropper(image, realtime_update=True, box_color='#000FFF', aspect_ratio=None)
-        print(cropped_img)
-        st.image(cropped_img, caption='cropped by user')
+        st.write("Not able to detect the signature, Please select the signature region for further processing.")
+        cropped_img = st_cropper(original_image, realtime_update=True, box_color='#000FFF', aspect_ratio=None)
+        st.image(cropped_img, caption='signature')
         if user_id:
             compare_with_user_images(user_id, cropped_img, model)
         
